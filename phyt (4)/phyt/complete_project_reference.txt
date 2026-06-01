@@ -1,0 +1,302 @@
+================================================================================
+          INFRA SENSE AI - COMPLETE ENTERPRISE PROJECT ARCHITECTURE MANUAL
+================================================================================
+Tagline: "Predict. Detect. Prevent."
+Version: 1.0.0 (Trained Machine Learning Models Integrated)
+Operational Domains: Industrial, Institutional, Residential, and Hospital Sectors
+
+This enterprise architecture manual provides a comprehensive, centralized reference 
+for the entire InfraSense AI web application, database schema, client-side model 
+replicas, diagnostic resolutions, and operational details.
+
+================================================================================
+TABLE OF CONTENTS
+================================================================================
+1. EXECUTIVE PROJECT OVERVIEW
+2. TECHNICAL SYSTEM ARCHITECTURE
+3. DATABASE SCHEMA & SUPABASE SYNC
+4. OPERATIONAL DOMAIN SPECIFICATIONS (THE 4 SECTORS)
+   - A. INDUSTRIAL SECTOR
+   - B. INSTITUTIONAL SECTOR
+   - C. RESIDENTIAL SECTOR (ELECTRICAL USAGE MONITOR)
+   - D. HOSPITAL SECTOR (CLINICAL ANOMALY SYSTEM)
+5. MACHINE LEARNING & PREDICTION SYSTEM ENGINE
+6. CRITICAL DIAGNOSTIC RESOLUTIONS (BUG FIXES)
+7. DEPLOYMENT, BUNDLE COMPILATION & VERIFICATION
+8. FULL FILE DIRECTORY MAP
+
+================================================================================
+1. EXECUTIVE PROJECT OVERVIEW
+================================================================================
+InfraSense AI is a state-of-the-art, glassmorphic cyberpunk command-center web 
+application designed to monitor complex facilities, track continuous sensory 
+telemetry, predict failure modes, and isolate critical anomalies in real time.
+
+By integrating client-side mathematical representations of trained Random Forest 
+classifiers and regressors with scrolling live data streams (ingested from CSV 
+datasets), InfraSense AI delivers near-zero latency threat detection and 
+preventative action dispatch workflows.
+
+================================================================================
+2. TECHNICAL SYSTEM ARCHITECTURE
+================================================================================
+The project is built on a highly optimized modern web stack:
+  * Core Engine: React 19 (custom hook bindings, state isolation)
+  * Styles & UX: Vanilla CSS, Tailwind CSS (glowing cyberpunk borders, micro-animations)
+  * Layout System: Framer Motion (glassmorphism panels, elastic transitions)
+  * Telemetry Visuals: Recharts (ECG biosignals, forecasting, radially mapped dials)
+  * Build Tool: Vite (optimized bundle builder utilizing Rolldown minifiers)
+  * Data Pipeline: Papaparse-adapted sequential CSV streamers
+  * DB & Auth: Supabase (RLS profiles, automated PostgreSQL schemas, real-time sync)
+
+================================================================================
+3. DATABASE SCHEMA & SUPABASE SYNC
+================================================================================
+The application supports a dual-mode authorization subsystem:
+  * Local Mock Mode: Zero-dependency sandbox utilizing LocalStorage caching.
+  * Supabase Mode: Connects to a cloud PostgreSQL database.
+
+Central DB Schema (profiles, metrics, alerts):
+
+  A. Profiles Table (extends auth.users):
+     - id (UUID, references auth.users, Primary Key)
+     - display_name (TEXT)
+     - phone_number (TEXT)
+     - company_name (TEXT)
+     - role (TEXT, defaults to 'user', also supports 'admin')
+     - sector (TEXT, e.g., 'Hospital Sector', 'Industrial Sector')
+     - photo_url (TEXT)
+     - address (TEXT)
+
+  B. Metrics Table (Sector Telemetry & History):
+     - sector (TEXT, Primary Key)
+     - total_devices (INTEGER)
+     - active_systems (INTEGER)
+     - ai_risk_score (INTEGER)
+     - energy_consumption (INTEGER)
+     - detected_anomalies (INTEGER)
+     - system_health (INTEGER)
+     - temperature (NUMERIC)
+     - voltage (NUMERIC)
+     - chart_data (JSONB, tracks rolling historical averages)
+
+  C. Alerts Table (Central Alert HUD):
+     - id (UUID, Primary Key)
+     - id_code (TEXT, e.g., 'ALT-4890')
+     - sector (TEXT)
+     - system (TEXT)
+     - message (TEXT)
+     - type (TEXT, 'critical', 'warning', 'success')
+     - timestamp (TIMESTAMPTZ)
+     - status (TEXT, 'active', 'acknowledged')
+
+================================================================================
+4. OPERATIONAL DOMAIN SPECIFICATIONS (THE 4 SECTORS)
+================================================================================
+
+--------------------------------------------------------------------------------
+A. INDUSTRIAL SECTOR ("Heavy Machinery Thermal & Rotational Telemetry")
+--------------------------------------------------------------------------------
+Focuses on conveyor motors, pneumatic air pressure, and heavy manufacturing cores.
+  * Primary Devices Tracked: Heavy Duty Conveyor Motor, Air Compressor Motor.
+  * Chart Visualizations: Rolling voltage fluctuations, pneumatic pressure load 
+    area charts, operational fatigue pie charts.
+  * Primary Anomaly Types: Rotational vibration spikes, voltage fluctuations.
+
+--------------------------------------------------------------------------------
+B. INSTITUTIONAL SECTOR ("Smart University HVAC Carbon & Thermal Efficiency")
+--------------------------------------------------------------------------------
+Monitors academic servers, HVAC zoning, and campus carbon footprints.
+  * Primary Dataset Ingest: "university.csv"
+  * Primary Devices Tracked: HVAC Climate Intake Fans, Campus Substation.
+  * Primary Anomaly Types: Chilled-water flow failure, airflow inefficiency.
+  * Interactive Crash Tests:
+    - Emergency Monitor: Drops cooling flow, triggers flashing crimson alarms.
+    - Degradation Tracker: Slowly rises temperature, triggers amber warnings.
+    - Resource Optimizer: Modulates airflow variance, triggers teal indicators.
+
+--------------------------------------------------------------------------------
+C. RESIDENTIAL SECTOR ("AI Smart Residential Electrical Usage & Power Theft")
+--------------------------------------------------------------------------------
+Monitors smart apartment consumption, peak grid load, and detects grid theft.
+  * Primary Dataset Ingest: "residence.csv"
+  * Primary Devices Tracked: Main Grid Solar Inverter, EV Fast Charger.
+  * Sub-Navigation System (11 Views):
+    - Dashboard: Summary cards, risk indices, rolling anomaly ticker.
+    - Live Monitoring: Voltage/current gauges, real-time demand bar charts.
+    - Anomaly Detection: Classifies appliance failure vs theft warnings.
+    - Power Theft: RADIAL grid theft dials, average vs neighborhood bar comparisons.
+    - Spike Detection: Glowing peak load charts with customized red spike dots.
+    - Appliance Monitoring: Tracking Mechanical Health (ACs, geysers, EV loads).
+    - AI Predictions: Shaded confidence bands showing multi-hour forecasts.
+    - Apartment Heatmaps: Large grid mapping 30 active smart home domains.
+    - Reports: Progress-bar guided PDF/Excel exporter.
+    - Chatbot Console: Multi-lingual residential energy query center.
+    - Settings: Safety threshold controls.
+
+--------------------------------------------------------------------------------
+D. HOSPITAL SECTOR ("AI Smart Hospital Monitoring & Anomaly Detection System")
+--------------------------------------------------------------------------------
+Provides a clinical command center tracking critical care departments and vitals.
+  * Primary Dataset Ingest: "hospital.csv"
+  * Primary Devices Tracked: ICU Ventilators, Patient Monitors, Backup Generators.
+  * Sub-Navigation System (10 Views):
+    - Clinical Dashboard: Real-time patient telemetry, glows, alert HUD feeds.
+    - Telemetry: Floating vitals graphs, ventilator pressure logs, backup voltages.
+    - Anomaly Center: Focuses on Silent Patient Deterioration anomalies.
+    - ICU Risk Analyzer: Escalation timelines, risk regression meters.
+    - Wards Capacity: Map of Active Beds (ICU, Emergency, Post-Op) and occupancy.
+    - AI Inference Panel: Deep classification HUD, logs, action dispatches.
+    - Patient Registry: bed logs, chronic histories, clinical status pills.
+    - Analytics Reports: Simulated Excel/PDF diagnostic document exporters.
+    - Trilingual Assistant: Dedicated console mapping clinical health queries.
+    - Systems Settings: Patient notification threshold selectors.
+  * 10 Custom Recharts Charts:
+    1. Realtime Patient Vitals: Deterioration vs Combined Risk scores.
+    2. ICU Risk Trend Graph: Continuous hourly risk timeline tracker.
+    3. Recovery Degradation Timeline: Dotted forecast showing predicted decay.
+    4. Readmission Prediction Model: Dashed confidence intervals for discharge.
+    5. Resource Utilization Grid: Bed occupancy vs clinician workload matrix.
+    6. Hospital Risk Gauge: Radial threat assessment clinical dial.
+    7. Bed Occupancy Analytics: Area chart monitoring emergency ward space.
+    8. Doctor Workload Graph: Patient workload vs emergency visit comparisons.
+    9. Anomaly Distribution: Pie chart breaking down clinical anomaly types.
+    10. Treatment Complexity: Stacked bar chart mapping complexity vs stays.
+  * Clinical Crash Tests:
+    - Silent Patient Deterioration: Triggers Crimson Alert, ICU transfer prompt.
+    - Recovery Decay Pattern: Triggers Amber alert, post-op audit prompt.
+    - Hospital Resource Saturation: Triggers Teal alert, bed reschedule prompt.
+
+================================================================================
+5. MACHINE LEARNING & PREDICTION SYSTEM ENGINE
+================================================================================
+InfraSense AI runs a dynamic pipeline reading live database data or parsing csv 
+rows sequentially every 5 seconds. These inputs are fed directly to Javascript 
+mathematical replicas of trained Random Forest Python models:
+
+--------------------------------------------------------------------------------
+A. RESIDENTIAL SECTOR MODELS (Trained via "residence.py")
+--------------------------------------------------------------------------------
+  * Classifier (residence_classifier.joblib)
+    - Goal: Classifies electrical usage patterns into Normal, Warning, Critical.
+    - Accuracy: 45.00%
+  * Regressor (residence_regressor.joblib)
+    - Goal: Forecasts future household electricity consumption.
+    - MAE: 0.7649 kWh | R-squared (R2): 95.81%
+  * Top-5 Sensory Predictive Features:
+    1. Midnight_Usage (17.82%)
+    2. Electricity_Usage_kWh (17.39%)
+    3. Humidity (14.96%)
+    4. Temperature (14.35%)
+    5. Appliance_Usage (9.53%)
+
+--------------------------------------------------------------------------------
+B. HOSPITAL SECTOR MODELS (Trained via "hospital.py")
+--------------------------------------------------------------------------------
+  * Classifier (hospital_classifier.joblib)
+    - Goal: Isolate clinical risk states (Silent Patient Deterioration, etc.)
+    - Accuracy: 80.00%
+  * Regressor (hospital_regressor.joblib / risk_regressor.joblib)
+    - Goal: Forecasts patient physical deterioration scale scores.
+    - MAE: 9.47 points | R-squared (R2): 79.02%
+  * Top-5 Sensory Predictive Features:
+    1. previous_admissions (23.06%)
+    2. hospital_stay_days (18.18%)
+    3. doctor_workload (10.87%)
+    4. combined_risk_score (10.75%)
+    5. bed_occupancy_percent (7.96%)
+
+================================================================================
+6. CRITICAL DIAGNOSTIC RESOLUTIONS (BUG FIXES)
+================================================================================
+Three highly complex React framework bugs were solved to guarantee system 
+integrity:
+
+--------------------------------------------------------------------------------
+A. Post-Login Blank Screen / Undefined Predictions Crash
+--------------------------------------------------------------------------------
+  * Symptom: Entering non-ML domains threw a fatal runtime ReferenceError: 
+    'predictions' is not defined, locking the screen blank.
+  * Fix: Declared predictions arrays in UserDashboard.jsx, mapping specific 
+    hardware nodes (e.g. ICU ventilators, solar banks) to fallback generator 
+    states. Also upgraded split calls in DashboardLayout.jsx from 
+    `user?.displayName.split(" ")[0]` to a protected optional conditional 
+    `{user?.displayName ? user.displayName.split(" ")[0] : ""}` to safeguard 
+    profile parsing against Null sessions.
+
+--------------------------------------------------------------------------------
+B. Analytics Page Load / Indefinite Spinner Freeze
+--------------------------------------------------------------------------------
+  * Symptom: Users switching to Hospital/Residential sectors saw an infinite 
+    "INITIALIZING ANALYTICS ENGINE..." spinner on the Analytics Page (/analytics).
+  * Cause: Cached LocalStorage states or older Supabase table metrics rows from 
+    prior development cycles lacked keys for the new domains. The lookup returned 
+    undefined, causing the initialization check to lock indefinitely.
+  * Fix: In SystemContext.jsx, updated both mock and online fetching routes to 
+    deeply merge incoming metric maps with INITIAL_SECTOR_METRICS. This ensures 
+    that all 4 sectors remain fully defined and present at all times.
+
+--------------------------------------------------------------------------------
+C. Chatbot Mismatch & State Isolation
+--------------------------------------------------------------------------------
+  * Symptom: The Hospital Clinical AI Assistant chatbot loaded with a 
+    Residential Energy Assistant greeting message: "I am your Residential Energy 
+    AI Assistant...".
+  * Cause: The floating medical chatbot was bound to the global `chatMessages` 
+    state which was initialized with Residential parameters.
+  * Fix: Isolated the Hospital chatbot into its own independent state 
+    `hospitalChatMessages` in UserDashboard.jsx. Bound both the hospital floating 
+    chat bubble and the in-page clinical console tab to map over this new state, 
+    initializing it with dedicated, professional clinical health greetings.
+
+================================================================================
+7. DEPLOYMENT, BUNDLE COMPILATION & VERIFICATION
+================================================================================
+The application is pre-packaged and configured to compile cleanly with Vite:
+  1. Open terminal in project folder: "C:\Users\keert\OneDrive\Desktop\phyt"
+  2. Launch development environment: "npm run dev"
+  3. Server automatically hosts the site at: http://localhost:5174/ (or 5173)
+  4. Build production static bundle: "npm run build"
+
+Verification Results:
+  vite v8.0.14 building client environment for production...
+  transforming...✓ 2764 modules transformed.
+  rendering chunks...
+  dist/assets/index-CgPVpsdr.css     46.45 kB │ gzip:   8.49 kB
+  dist/assets/index-ZYCiWH7f.js   1,065.89 kB │ gzip: 296.61 kB
+  ✓ built in 1.93s (Zero runtime compile errors)
+
+================================================================================
+8. FULL FILE DIRECTORY MAP
+================================================================================
+* c:/Users/keert/OneDrive/Desktop/phyt/
+  ├── public/
+  │   ├── hospital.csv              (Real-time hospital sequential dataset)
+  │   ├── residence.csv             (Real-time smart home sequential dataset)
+  │   └── university.csv            (Real-time university sequential dataset)
+  ├── src/
+  │   ├── config/
+  │   │   └── supabaseClient.js     (Configuration connector for cloud DB)
+  │   ├── context/
+  │   │   ├── AuthContext.jsx       (Mock & Supabase registration, login, sector selection)
+  │   │   └── SystemContext.jsx     (Centralized telemetry state, alert HUD, device mapping)
+  │   ├── layouts/
+  │   │   └── DashboardLayout.jsx   (Header scope badge, alerts notifications, profile card)
+  │   ├── pages/
+  │   │   ├── AdminDashboard.jsx    (Global telemetry administrative control panels)
+  │   │   ├── AlertsPage.jsx        (Historical alert ledger & acknowledgment logs)
+  │   │   ├── AnalyticsPage.jsx     (Diagnostic charts, temperature, voltage logs)
+  │   │   ├── LandingPage.jsx       (High-performance futuristic introduction landing portal)
+  │   │   ├── LoginPage.jsx         (Secure Operator and Admin credential gateways)
+  │   │   ├── SectorSelectionPage.jsx(Operational domain routing console)
+  │   │   ├── SettingsPage.jsx      (Safety limits, alarm boundaries settings)
+  │   │   └── UserDashboard.jsx     (267KB main engine with isolated layouts and sub-navs)
+  │   ├── index.css                 (Styling base, glassmorphic filters, neon animations)
+  │   └── main.jsx                  (Entry mount binding App.jsx)
+  ├── package.json                  (Dependencies: Framer Motion, Lucide, Recharts, Vite)
+  ├── tailwind.config.js            (Custom theme, color schemes, font families)
+  ├── hospital.py                   (Python Random Forest Hospital training pipeline)
+  ├── residence.py                  (Python Random Forest Residence training pipeline)
+  ├── university.py                 (Python Random Forest University training pipeline)
+  └── hospital_sector_reference.txt (Brief summary of hospital system)
+================================================================================

@@ -1,0 +1,88 @@
+========================================================================
+INFRA SENSE AI - HOSPITAL SECTOR OPERATIONAL REFERENCE MANUAL
+========================================================================
+Tagline: "Predict. Detect. Prevent."
+Scope: Smart Hospital Patient Vitals Monitoring & Clinical AI Core
+
+This document serves as the primary technical reference for the Hospital Sector 
+monitoring system integrated within the InfraSense AI platform.
+
+------------------------------------------------------------------------
+1. GENERAL INFRASTRUCTURE & VITAL METRICS
+------------------------------------------------------------------------
+The system monitors critical care department vitals, patient monitors, and clinician 
+workloads across 8 primary telemetry metrics:
+  * Patient Deterioration: Continuous cardiovascular drift (0-100 score).
+  * ICU Escalation Probability: Likelihood of escalating ward status (0-100%).
+  * Emergency Readmission Risk: 30-day post-op readmission prediction (0-100%).
+  * Doctor/Staff Workload: Active patient load per clinician index.
+  * Critical Bed Occupancy: Emergency and ICU ward space capacity (%).
+  * Combined Risk Score: Integrated vital sign distress indicator.
+  * Active Clinical Anomalies: Unacknowledged alert warning flags.
+  * Core Telemetry Stability: Operational clinical network core health (%).
+
+------------------------------------------------------------------------
+2. HARDWARE DEVICES MONITORED
+------------------------------------------------------------------------
+  A. ICU Ventilator Backup Supply:
+     * Model: Puritan Bennett 980.
+     * Voltage Range: 12V - 24V DC (Fluctuates dynamically around 23.8V).
+     * Optimal Threshold: Warns if voltage deviates below 12V or exceeds 24V.
+
+  B. ICU Patient Monitor Battery:
+     * Model: Philips Intellivue MX800.
+     * Voltage Range: 15V - 19V DC (Fluctuates dynamically around 18.2V).
+     * Optimal Threshold: Warns if voltage approaches battery safety limits.
+
+  C. Emergency Backup Generator:
+     * Model: Caterpillar C15 Diesel Core.
+     * Voltage Range: 400V - 480V (Fluctuates dynamically around 478.5V).
+     * Optimal Threshold: Warns if power output drifts unstable.
+
+------------------------------------------------------------------------
+3. SUB-NAVIGATION SYSTEM (10 CONTEXT VIEWS)
+------------------------------------------------------------------------
+  1. Clinical Dashboard: Dynamic glowing widgets, alert feeds, and vitals.
+  2. Telemetry Flow: Floating vitals lines, ventilator logs, and core outputs.
+  3. Anomaly Center: Dedicated alerts focusing on Silent Patient Deterioration.
+  4. ICU Risk Analyzer: Escalation risk regressions and hourly risk timelines.
+  5. Wards Capacity: Map of Active Beds (ICU, Emergency, Post-Op) and occupancy.
+  6. AI Inference Panel: Deep classification HUD, logs, action dispatches.
+  7. Patient Registry: bed logs, chronic histories, clinical status pills.
+  8. Analytics Reports: Simulated Excel/PDF diagnostic document exporters.
+  9. Trilingual Assistant: Dedicated console mapping clinical health queries.
+  10. Systems Settings: Patient notification threshold selectors.
+
+------------------------------------------------------------------------
+4. MACHINE LEARNING MODELLING PIPELINE (hospital.py)
+------------------------------------------------------------------------
+  * Dataset Ingest: "hospital.csv"
+  * Classifier (hospital_classifier.joblib):
+    - Goal: Isolate clinical alert classes (Silent Patient Deterioration, etc.)
+    - Accuracy: 80.00%
+  * Regressor (hospital_regressor.joblib / risk_regressor.joblib):
+    - Goal: Forecasts patient physical deterioration scale scores.
+    - MAE: 9.47 points | R-squared (R2): 79.02%
+  * Top-5 Sensory Predictive Features:
+    1. previous_admissions (23.06%)
+    2. hospital_stay_days (18.18%)
+    3. doctor_workload (10.87%)
+    4. combined_risk_score (10.75%)
+    5. bed_occupancy_percent (7.96%)
+
+------------------------------------------------------------------------
+5. LOCALIZED CLINICAL HEALTH AI CHATBOT
+------------------------------------------------------------------------
+* Isolated floating widget at bottom right (and dedicated console tab).
+* Uses the separate "hospitalChatMessages" state to prevent sharing data.
+* Translates between English, Hindi (हिन्दी), and Kannada (ಕನ್ನಡ) on the fly.
+* Provides root-cause diagnostics for medical queries (e.g., ICU escalation, 
+  readmission risks, bed reallocation strategies).
+
+------------------------------------------------------------------------
+6. FILE REFERENCES
+------------------------------------------------------------------------
+* UI Component Render: src/pages/UserDashboard.jsx -> renderHospital()
+* Data Source Pipeline: public/hospital.csv
+* Training Pipeline: hospital.py
+========================================================================

@@ -1,0 +1,115 @@
+========================================================================
+INFRA SENSE AI - RESIDENTIAL SECTOR OPERATIONAL REFERENCE MANUAL
+========================================================================
+Title: AI Smart Residential Electrical Usage Monitoring & Anomaly Detection System
+Tagline: "Conservation. Security. Autonomy."
+Scope: Smart Community Grid Energy Monitoring & Power Theft Analytics
+
+This document serves as the primary technical reference manual for the Residential Sector 
+monitoring system integrated within the InfraSense AI platform.
+
+------------------------------------------------------------------------
+1. GENERAL INFRASTRUCTURE & 8 DYNAMIC KPI METRICS
+------------------------------------------------------------------------
+The system monitors household grids and substation feeds across 8 primary KPI indicators:
+  1. Residential Consumption: Rolling total drawing load (e.g. 194 kWh baseline).
+  2. Active Anomalies: Flagged smart grid anomalies and bypasses (e.g. 2 Critical Alerts baseline).
+  3. Critical Grid Alerts: Immediate inspection required flags from high-risk nodes.
+  4. Electrical Health: Aggregate line factor efficiency score (%).
+  5. Predicted Risk Level: Random Forest classifier likelihood prediction (e.g. 82% Risk).
+  6. Peak Usage Window: Daily highest load cycle averages (18:00 - 21:00).
+  7. Monthly Energy Cost: Simulated running billing cost based on current draw ($).
+  8. AI Core Accuracy: Trained validation accuracy fit score (95.8% ACC).
+
+------------------------------------------------------------------------
+2. DATASET SCHEMAS & MODEL FEATURE COLUMNS
+------------------------------------------------------------------------
+The system integrates with trained Random Forest and LSTM prediction models based on 13 features:
+  * apartment ID (Apartment identification tag)
+  * timestamp (Vitals recording interval)
+  * voltage (Current grid line voltage in Volts)
+  * current (Substation current flow in Amperes)
+  * power consumption (Load demand in kW)
+  * energy usage (kWh) (Electrical consumption in kilowatt-hours)
+  * frequency (Ingestion frequency in Hz)
+  * power factor (Power factor coefficient optimal targets)
+  * appliance usage (Smart mechanical draw signatures)
+  * weather temperature (Ambient outdoor temperature in °C)
+  * peak load (High daily loading cycle indicators)
+  * night usage (Suspicious midnight activity markers)
+  * anomaly labels (Warning classification statuses)
+
+------------------------------------------------------------------------
+3. 11 SIDEBAR CONTROLS & NAVIGATION MENU
+------------------------------------------------------------------------
+  1. Dashboard: Glowing overview widget cards, alerts syncs, and telemetry.
+  2. Live Monitoring: Voltage / current dials and real-time composed bar charts.
+  3. Anomaly Detection: Switchable portal containing the Events Table and deep sections.
+  4. Power Theft Analytics: suspicious meter bypasses, gauges, comparison charts, and AI Insights.
+  5. Spike Detection: sudden surges, comparison plots, highlighted markers, and timelines.
+  6. Appliance Monitoring: Mechanically isolates refrigerator/AC signatures, geysers, and EV chargers.
+  7. AI Predictions & Forecasting: Multi-hour forecasts, confidence zones, and dotted trendlines.
+  8. Apartment Heatmaps: Heatmap matrices plotting 30 smart units in risk color codes.
+  9. Analytics & Reports: simulated PDF/Excel exporter with status loading bars.
+  10. AI Agent Assistant: Localized residential energy diagnostic chatbot console.
+  11. System Settings: warning thresholds configurations synced with classifier parameters.
+
+------------------------------------------------------------------------
+4. 6 ANOMALIES TO DETECT & DIAGNOSTIC PROFILES
+------------------------------------------------------------------------
+  A. Power Theft (Critical Severity - Red):
+     - Suspicious meter bypasses, abnormal drops, radial SVG theft probability gauge (82%).
+     - AI Insight: "Possible unauthorized electricity usage detected in Apartment APT_1027."
+     - Recommendation: "Dispatch Field Meter Integrity Inspection Team"
+
+  B. Unexpected Spike (Warning Severity - Orange):
+     - Sudden electricity surges, line spikes graph with highlighted red anomaly markers.
+     - AI Insight: "Electricity usage increased abnormally within short duration."
+     - Recommendation: "Reduce High-Power Appliance Usage"
+
+  C. Appliance Fault (Warning Severity - Orange):
+     - Mechanical wear signature alerts, appliance health progress bars, fault probability.
+     - AI Recommendation: "Air Conditioner may require maintenance."
+
+  D. Continuous Overload (High Severity - Orange):
+     - Long-duration heavy load monitoring, transformer thermal stress gauge, infrastructure risk.
+     - AI Alert: "Continuous overload may damage infrastructure."
+     - Recommendation: "Engage Transformer Phase-Shifter"
+
+  E. Abnormal Midnight Usage (Low Severity - Yellow):
+     - Night occupancy mismatch comparison (0% occupancy vs 4.2 kW load), midnight timelines.
+     - AI Insight: "Unusual energy consumption detected during midnight hours."
+     - Recommendation: "Trigger Autonomous Load Mitigation"
+
+  F. Weather Mismatch Usage (Medium Severity - Yellow):
+     - Mapped external cool temperature vs high indoor HVAC draw (low correlation fit < 0.12).
+     - AI Insight: "Current energy usage does not match weather conditions."
+     - Recommendation: "Activate Smart Energy Optimization"
+
+------------------------------------------------------------------------
+5. 8 REQUIRED futuristic GLOWING CHARTS
+------------------------------------------------------------------------
+  1. Real-Time Energy Consumption Graph: actual drawing kW vs ML forecasts (Dashboard).
+  2. Spike Detection Graph: Line plot with blinking red anomaly indicators (Spike tab).
+  3. AI Prediction Graph: Dotted multi-hour forecasting with confidence overlays (Predictions tab).
+  4. Apartment Risk Heatmap: Selectable risk-colored grid of 30 substation nodes (Heatmaps tab).
+  5. Anomaly Distribution Pie Chart: slices detailing anomaly categories (Dashboard).
+  6. Risk Gauge Meter: Circular SVG radial progress ring displaying theft probability (Theft tab).
+  7. Midnight Usage Timeline: LineChart mapping nighttime consumption trends (Midnight sub-tab).
+  8. Weather vs Usage Graph: Temperature vs HVAC load composed correlation curve (Weather sub-tab).
+
+------------------------------------------------------------------------
+6. DYNAMIC TRILINGUAL LOCALIZATION & chatbot
+------------------------------------------------------------------------
+* Fully localized in English, Hindi (हिन्दी), and Kannada (ಕನ್ನಡ) dynamically.
+* Persistent localStorage syncing translates all widgets, tables, alerts, settings, 
+  and chatbot diagnostic answers in real time on the fly.
+
+------------------------------------------------------------------------
+7. FILE & CODEBASE REFERENCES
+------------------------------------------------------------------------
+* UI Component Render: src/pages/UserDashboard.jsx -> renderResidential()
+* Dynamic Sync Handlers: src/pages/UserDashboard.jsx -> predictTrainedModel()
+* Data Source Pipeline: public/residence.csv
+* Training Pipeline: residence.py
+========================================================================

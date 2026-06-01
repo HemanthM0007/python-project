@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#030408] text-gray-100 font-sans antialiased overflow-x-hidden;
+    background-image: 
+      radial-gradient(at 0% 0%, rgba(0, 114, 255, 0.08) 0px, transparent 50%),
+      radial-gradient(at 50% 0%, rgba(0, 240, 255, 0.05) 0px, transparent 50%),
+      radial-gradient(at 100% 100%, rgba(0, 114, 255, 0.05) 0px, transparent 50%),
+      radial-gradient(at 0% 100%, rgba(239, 68, 68, 0.03) 0px, transparent 50%);
+    background-attachment: fixed;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(13, 16, 29, 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 240, 255, 0.25);
+  border-radius: 4px;
+  border: 1px solid rgba(0, 240, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 240, 255, 0.5);
+  box-shadow: 0 0 8px rgba(0, 240, 255, 0.5);
+}
+
+/* Cyberpunk Glassmorphism Card Style */
+.glass-panel {
+  background: rgba(10, 12, 22, 0.55);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glass-panel-glow {
+  background: rgba(13, 16, 29, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 240, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4), 0 0 10px rgba(0, 240, 255, 0.05);
+}
+
+/* Glowing Neon Borders & Rings */
+.glow-text-cyan {
+  text-shadow: 0 0 10px rgba(0, 240, 255, 0.5), 0 0 20px rgba(0, 240, 255, 0.2);
+}
+
+.glow-text-blue {
+  text-shadow: 0 0 10px rgba(0, 114, 255, 0.5), 0 0 20px rgba(0, 114, 255, 0.2);
+}
+
+.glow-text-rose {
+  text-shadow: 0 0 10px rgba(239, 68, 68, 0.5), 0 0 20px rgba(239, 68, 68, 0.2);
+}
+
+.glow-border-cyan {
+  box-shadow: 0 0 12px rgba(0, 240, 255, 0.15);
+  border-color: rgba(0, 240, 255, 0.35);
+}
+
+.glow-border-blue {
+  box-shadow: 0 0 12px rgba(0, 114, 255, 0.15);
+  border-color: rgba(0, 114, 255, 0.35);
+}
+
+/* Dynamic Scanlines Grid Background */
+.cyber-grid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    linear-gradient(rgba(18, 24, 38, 0.15) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(18, 24, 38, 0.15) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-position: center;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Pulsing AI Scan Light line */
+.scanline {
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(0, 240, 255, 0.4), transparent);
+  animation: scan 6s linear infinite;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+@keyframes scan {
+  0% {
+    top: 0%;
+  }
+  50% {
+    top: 100%;
+  }
+  100% {
+    top: 0%;
+  }
+}
+
+/* Loading status spinner neon animation */
+.neon-spinner {
+  border-top-color: #00f0ff;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Custom glowing badges */
+.badge-critical {
+  @apply text-red-400 bg-red-950/40 border border-red-500/30 px-2 py-0.5 rounded text-xs font-mono tracking-wider uppercase;
+  box-shadow: 0 0 8px rgba(239, 68, 68, 0.2);
+}
+
+.badge-warning {
+  @apply text-amber-400 bg-amber-950/40 border border-amber-500/30 px-2 py-0.5 rounded text-xs font-mono tracking-wider uppercase;
+  box-shadow: 0 0 8px rgba(245, 158, 11, 0.2);
+}
+
+.badge-success {
+  @apply text-emerald-400 bg-emerald-950/40 border border-emerald-500/30 px-2 py-0.5 rounded text-xs font-mono tracking-wider uppercase;
+  box-shadow: 0 0 8px rgba(16, 185, 129, 0.2);
+}
+
+/* Grid overlay background particles */
+.ambient-dot {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(0, 240, 255, 0.15);
+  filter: blur(6px);
+  animation: float 20s infinite ease-in-out;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-20px) translateX(20px);
+  }
+}
+
+/* Dynamic ML Accents & Neon Glows */
+.shadow-glow-rose {
+  box-shadow: 0 0 15px rgba(239, 68, 68, 0.35), inset 0 0 10px rgba(239, 68, 68, 0.15);
+  border-color: rgba(239, 68, 68, 0.45) !important;
+}
+.shadow-glow-amber {
+  box-shadow: 0 0 15px rgba(245, 158, 11, 0.3), inset 0 0 10px rgba(245, 158, 11, 0.1);
+  border-color: rgba(245, 158, 11, 0.45) !important;
+}
+.shadow-glow-teal {
+  box-shadow: 0 0 15px rgba(20, 184, 166, 0.35), inset 0 0 10px rgba(20, 184, 166, 0.15);
+  border-color: rgba(20, 184, 166, 0.45) !important;
+}
+.shadow-glow-cyan {
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.35), inset 0 0 10px rgba(0, 240, 255, 0.15);
+  border-color: rgba(0, 240, 255, 0.45) !important;
+}
+.shadow-glow-emerald {
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.3), inset 0 0 10px rgba(16, 185, 129, 0.1);
+  border-color: rgba(16, 185, 129, 0.4) !important;
+}
+
+@keyframes pulse-subtle {
+  0%, 100% {
+    opacity: 1;
+    box-shadow: 0 0 30px rgba(239, 68, 68, 0.05);
+  }
+  50% {
+    opacity: 0.95;
+    box-shadow: 0 0 50px rgba(239, 68, 68, 0.25);
+  }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 2s infinite ease-in-out;
+}
+
+.badge-optimization {
+  @apply text-teal-400 bg-teal-950/40 border border-teal-500/30 px-2 py-0.5 rounded text-xs font-mono tracking-wider uppercase;
+  box-shadow: 0 0 8px rgba(20, 184, 166, 0.2);
+}
+

@@ -1,0 +1,301 @@
+Timestamp,Household_ID,Electricity_Usage_kWh,Temperature,Humidity,Weather_Condition,Peak_Load,Appliance_Usage,Midnight_Usage,Usage_Pattern,Sudden_Spike_Flag,Continuous_Load_Flag,Weather_Mismatch_Flag,Anomaly_Type,Anomaly_Status,Predicted_Energy_Usage,AI_Recommendation
+01/01/25 0:00,HH_1029,5.96,18.6,47,Rainy,0,12,4.47,Low Consumption,0,1,0,Power Theft,Warning,5.75,Schedule heavy appliances during off-peak hours
+01/01/25 3:00,HH_1007,9,31.5,75,Windy,1,11,1.74,Normal,0,1,1,Unexpected Spike,Warning,8.68,Use energy-efficient devices
+01/01/25 6:00,HH_1027,15.64,20.2,36,Cloudy,1,2,4.41,Low Consumption,0,1,0,Unexpected Spike,Critical,16.78,Reduce peak hour usage
+01/01/25 9:00,HH_1018,17.77,19.1,44,Cloudy,0,3,2.34,Work From Home,1,0,1,Unexpected Spike,Warning,19.57,Schedule heavy appliances during off-peak hours
+01/01/25 12:00,HH_1019,13.8,32.6,40,Windy,0,9,2.34,Low Consumption,0,1,0,Appliance Fault,Warning,15.75,Use energy-efficient devices
+01/01/25 15:00,HH_1069,16.08,19.6,88,Windy,1,5,3.97,Work From Home,1,0,1,Appliance Fault,Warning,18.07,Schedule heavy appliances during off-peak hours
+01/01/25 18:00,HH_1068,8.69,35.9,57,Windy,0,4,3.11,Normal,0,0,0,None,Normal,9.46,No action required
+01/01/25 21:00,HH_1109,11.74,32.3,54,Stormy,1,10,1.58,Low Consumption,0,0,1,Unexpected Spike,Warning,11.6,Optimize AC temperature settings
+02/01/25 0:00,HH_1117,17.56,18.1,76,Cloudy,0,10,5.48,Weekend Peak,0,0,1,Appliance Fault,Warning,18.96,Use energy-efficient devices
+02/01/25 3:00,HH_1005,6.21,20.7,53,Cloudy,0,11,5.69,Normal,1,0,0,Appliance Fault,Critical,7.35,Inspect wiring and meter
+02/01/25 6:00,HH_1068,17.45,30.7,68,Stormy,0,6,2.45,Weekend Peak,1,1,0,Appliance Fault,Warning,16.04,Optimize AC temperature settings
+02/01/25 9:00,HH_1142,3.6,23.5,44,Sunny,0,5,0.5,Normal,1,0,0,Unexpected Spike,Critical,3.47,Inspect wiring and meter
+02/01/25 12:00,HH_1147,15.02,31.8,45,Stormy,0,3,0.67,Work From Home,1,1,1,Continuous Overload,Warning,16.55,Schedule heavy appliances during off-peak hours
+02/01/25 15:00,HH_1026,14.91,19.5,76,Cloudy,0,5,1.23,Low Consumption,1,0,1,Appliance Fault,Critical,15.49,Inspect wiring and meter
+02/01/25 18:00,HH_1114,4.02,37.4,84,Windy,0,3,5.57,High Evening Usage,0,1,1,Continuous Overload,Warning,4.66,Optimize AC temperature settings
+02/01/25 21:00,HH_1043,16.86,27.1,54,Cloudy,1,6,2.6,Low Consumption,1,0,0,Unexpected Spike,Warning,20.07,Schedule heavy appliances during off-peak hours
+03/01/25 0:00,HH_1139,3.28,19.5,50,Sunny,1,10,5.52,Low Consumption,0,0,0,None,Normal,3.79,No action required
+03/01/25 3:00,HH_1018,8.76,32.3,73,Rainy,0,11,3.61,Low Consumption,0,1,1,Unexpected Spike,Warning,9.64,Use energy-efficient devices
+03/01/25 6:00,HH_1062,9.59,24.4,38,Cloudy,0,2,2.8,Low Consumption,0,0,0,None,Normal,10.09,No action required
+03/01/25 9:00,HH_1034,16.13,40.4,86,Sunny,1,6,1.03,Low Consumption,1,0,1,Power Theft,Warning,15.8,Optimize AC temperature settings
+03/01/25 12:00,HH_1142,5.76,21.7,48,Windy,1,5,4.16,Weekend Peak,1,1,0,Power Theft,Critical,6.62,Inspect wiring and meter
+03/01/25 15:00,HH_1001,5,26,38,Cloudy,1,10,4.26,Low Consumption,0,0,0,None,Normal,5.92,No action required
+03/01/25 18:00,HH_1039,11.53,31.1,83,Cloudy,0,8,0.85,Weekend Peak,1,0,1,Appliance Fault,Warning,12.68,Use energy-efficient devices
+03/01/25 21:00,HH_1144,14.12,39.2,56,Windy,0,4,5.86,High Evening Usage,1,0,0,Unexpected Spike,Critical,16.11,Reduce peak hour usage
+04/01/25 0:00,HH_1064,8.43,24.4,80,Sunny,0,9,1.41,Work From Home,1,1,0,Appliance Fault,Warning,9.26,Use energy-efficient devices
+04/01/25 3:00,HH_1085,7.94,24.7,34,Cloudy,1,12,5.89,Low Consumption,1,0,0,Unexpected Spike,Warning,8.53,Use energy-efficient devices
+04/01/25 6:00,HH_1010,13.79,20.6,57,Cloudy,1,8,3.68,Low Consumption,0,1,0,Unexpected Spike,Warning,15.34,Optimize AC temperature settings
+04/01/25 9:00,HH_1134,8.15,40.2,64,Rainy,0,12,5.53,Low Consumption,1,0,1,Unexpected Spike,Critical,8.13,Reduce peak hour usage
+04/01/25 12:00,HH_1076,12.81,31.3,42,Stormy,1,12,4.51,High Evening Usage,1,1,0,Unexpected Spike,Critical,12.34,Reduce peak hour usage
+04/01/25 15:00,HH_1083,10.42,29.2,58,Rainy,0,12,0.6,Low Consumption,1,0,0,Unexpected Spike,Warning,11.9,Optimize AC temperature settings
+04/01/25 18:00,HH_1007,15.67,19.1,60,Windy,0,9,2.55,Low Consumption,0,1,1,Continuous Overload,Warning,14.8,Schedule heavy appliances during off-peak hours
+04/01/25 21:00,HH_1002,14.57,39.4,85,Sunny,0,4,4.84,Low Consumption,1,0,0,Power Theft,Critical,13.7,Check faulty appliances
+05/01/25 0:00,HH_1136,17.23,41.7,68,Cloudy,1,11,4.91,Low Consumption,1,1,0,Continuous Overload,Critical,16.85,Inspect wiring and meter
+05/01/25 3:00,HH_1071,12.21,36.4,63,Stormy,1,9,0.56,Weekend Peak,0,1,1,Unexpected Spike,Warning,11.5,Optimize AC temperature settings
+05/01/25 6:00,HH_1099,3.5,34.7,75,Rainy,1,7,3.3,Work From Home,0,0,1,Continuous Overload,Warning,4.05,Schedule heavy appliances during off-peak hours
+05/01/25 9:00,HH_1098,7.13,29.4,90,Cloudy,1,8,3.28,Low Consumption,0,1,0,Unexpected Spike,Critical,7.46,Check faulty appliances
+05/01/25 12:00,HH_1087,13.72,34.1,81,Stormy,1,4,5.89,Low Consumption,0,1,0,Power Theft,Critical,12.91,Check faulty appliances
+05/01/25 15:00,HH_1047,5.78,19.2,54,Cloudy,1,7,4.59,Work From Home,1,1,1,Power Theft,Critical,5.24,Reduce peak hour usage
+05/01/25 18:00,HH_1014,12.58,42,52,Rainy,0,2,5.7,High Evening Usage,0,0,0,None,Normal,11.8,No action required
+05/01/25 21:00,HH_1030,13.34,31.5,43,Stormy,1,4,3.67,Normal,0,1,0,Power Theft,Critical,14.31,Check faulty appliances
+06/01/25 0:00,HH_1102,11.68,40.6,42,Sunny,0,3,4.21,Weekend Peak,0,0,1,Continuous Overload,Critical,10.75,Reduce peak hour usage
+06/01/25 3:00,HH_1088,4.14,18.3,56,Stormy,1,12,5.36,Work From Home,0,1,0,Unexpected Spike,Critical,4.3,Reduce peak hour usage
+06/01/25 6:00,HH_1069,6.82,25.7,45,Sunny,1,5,4.53,Low Consumption,1,1,0,Continuous Overload,Critical,6.51,Inspect wiring and meter
+06/01/25 9:00,HH_1091,16.14,37.1,51,Cloudy,1,10,0.16,High Evening Usage,0,0,1,Continuous Overload,Warning,17.87,Schedule heavy appliances during off-peak hours
+06/01/25 12:00,HH_1126,7.06,28.8,31,Sunny,1,5,1.91,Low Consumption,1,1,1,Continuous Overload,Critical,7.1,Check faulty appliances
+06/01/25 15:00,HH_1070,13.68,25.4,44,Sunny,1,3,4.48,High Evening Usage,0,0,1,Unexpected Spike,Critical,16.34,Inspect wiring and meter
+06/01/25 18:00,HH_1076,2.72,23.5,41,Cloudy,0,6,0.37,Normal,1,0,1,Power Theft,Warning,2.92,Use energy-efficient devices
+06/01/25 21:00,HH_1123,6.41,28.6,41,Sunny,1,3,4.95,Work From Home,1,0,0,Appliance Fault,Warning,7.33,Use energy-efficient devices
+07/01/25 0:00,HH_1022,14.35,41.9,37,Windy,0,10,2.34,Work From Home,1,1,1,Power Theft,Warning,16.99,Optimize AC temperature settings
+07/01/25 3:00,HH_1055,6.22,24.4,35,Rainy,0,4,0.12,Work From Home,1,1,0,Appliance Fault,Critical,6.92,Reduce peak hour usage
+07/01/25 6:00,HH_1117,14.71,19.7,44,Cloudy,0,8,0.78,High Evening Usage,0,1,0,Power Theft,Warning,13.97,Use energy-efficient devices
+07/01/25 9:00,HH_1146,9.76,40.1,58,Sunny,1,8,5.66,Low Consumption,1,1,0,Power Theft,Critical,10.93,Reduce peak hour usage
+07/01/25 12:00,HH_1065,11.6,18.6,44,Windy,0,12,4.95,Low Consumption,0,0,1,Continuous Overload,Critical,11.07,Reduce peak hour usage
+07/01/25 15:00,HH_1112,9.79,33.2,61,Sunny,1,7,1.99,Normal,0,1,1,Continuous Overload,Critical,10.76,Check faulty appliances
+07/01/25 18:00,HH_1141,6.41,18.9,35,Cloudy,0,8,5.2,Normal,1,1,0,Appliance Fault,Critical,6.97,Check faulty appliances
+07/01/25 21:00,HH_1114,11.01,36.2,43,Cloudy,1,9,5.3,Work From Home,0,0,0,None,Normal,12.25,No action required
+08/01/25 0:00,HH_1080,3.94,31.2,65,Stormy,0,9,5.69,High Evening Usage,1,1,1,Continuous Overload,Critical,4.7,Inspect wiring and meter
+08/01/25 3:00,HH_1117,16.79,31.2,54,Rainy,0,3,1.73,Work From Home,1,1,0,Unexpected Spike,Critical,19.33,Reduce peak hour usage
+08/01/25 6:00,HH_1126,10.01,38.8,58,Windy,1,10,4.6,Work From Home,1,1,0,Appliance Fault,Critical,9.71,Check faulty appliances
+08/01/25 9:00,HH_1012,8.48,25.6,60,Stormy,0,9,5.79,High Evening Usage,1,0,1,Power Theft,Critical,7.67,Inspect wiring and meter
+08/01/25 12:00,HH_1105,9.78,38.9,39,Sunny,1,7,3.78,Work From Home,0,1,1,Unexpected Spike,Critical,11.36,Inspect wiring and meter
+08/01/25 15:00,HH_1018,17.96,23.6,73,Cloudy,0,8,5.87,Normal,1,0,1,Power Theft,Warning,17.91,Optimize AC temperature settings
+08/01/25 18:00,HH_1076,6.29,26.6,57,Rainy,1,11,4.12,High Evening Usage,0,0,0,None,Normal,6.81,No action required
+08/01/25 21:00,HH_1098,16.65,32.9,45,Stormy,0,5,2.82,Weekend Peak,1,1,0,Continuous Overload,Critical,18.37,Inspect wiring and meter
+09/01/25 0:00,HH_1019,7.14,28.6,52,Windy,1,6,2.8,Weekend Peak,0,1,1,Power Theft,Warning,7.24,Use energy-efficient devices
+09/01/25 3:00,HH_1148,2.84,25.1,74,Cloudy,1,6,0.15,Normal,1,1,0,Unexpected Spike,Warning,3.1,Schedule heavy appliances during off-peak hours
+09/01/25 6:00,HH_1065,12.24,34.3,76,Rainy,0,6,4.75,Normal,1,0,0,Unexpected Spike,Critical,13.76,Inspect wiring and meter
+09/01/25 9:00,HH_1052,10.73,21.2,64,Cloudy,1,4,1.62,Work From Home,1,1,0,Continuous Overload,Warning,10.11,Optimize AC temperature settings
+09/01/25 12:00,HH_1102,8.17,41.2,81,Windy,1,2,1.66,Normal,1,1,1,Continuous Overload,Critical,7.62,Inspect wiring and meter
+09/01/25 15:00,HH_1121,7.58,18.6,86,Windy,0,12,0.47,Work From Home,1,1,0,Appliance Fault,Warning,8.97,Use energy-efficient devices
+09/01/25 18:00,HH_1127,4.6,20.8,45,Windy,1,7,4.06,Low Consumption,1,0,1,Power Theft,Critical,4.99,Check faulty appliances
+09/01/25 21:00,HH_1009,9.39,34.6,43,Stormy,0,7,0.69,Weekend Peak,1,0,1,Unexpected Spike,Warning,11.18,Use energy-efficient devices
+10/01/25 0:00,HH_1024,17.55,33.9,71,Windy,0,7,1.54,High Evening Usage,0,0,0,None,Normal,18.88,No action required
+10/01/25 3:00,HH_1060,2.54,25.9,39,Windy,0,4,3.29,High Evening Usage,0,0,0,None,Normal,2.3,No action required
+10/01/25 6:00,HH_1061,6.61,32.1,31,Rainy,0,8,3.2,Normal,1,1,1,Power Theft,Critical,6.95,Reduce peak hour usage
+10/01/25 9:00,HH_1012,7.18,35.5,88,Windy,0,2,5.99,Work From Home,1,0,1,Continuous Overload,Warning,8.4,Use energy-efficient devices
+10/01/25 12:00,HH_1038,12.31,19.6,47,Windy,1,8,5.97,Low Consumption,1,1,1,Power Theft,Warning,14.23,Schedule heavy appliances during off-peak hours
+10/01/25 15:00,HH_1142,9.5,35.3,43,Stormy,0,8,2.1,Work From Home,1,1,0,Unexpected Spike,Critical,9.44,Check faulty appliances
+10/01/25 18:00,HH_1096,3.54,40.9,73,Stormy,0,3,2.65,Weekend Peak,0,0,1,Power Theft,Critical,3.56,Reduce peak hour usage
+10/01/25 21:00,HH_1109,17.51,38.8,76,Sunny,1,7,0.71,Low Consumption,0,0,1,Appliance Fault,Warning,17.6,Schedule heavy appliances during off-peak hours
+11/01/25 0:00,HH_1095,6.01,20.8,47,Windy,1,10,5.85,Low Consumption,0,1,0,Appliance Fault,Critical,6.68,Check faulty appliances
+11/01/25 3:00,HH_1087,11.28,26.4,41,Rainy,1,3,0.94,Normal,0,0,1,Continuous Overload,Critical,11.31,Check faulty appliances
+11/01/25 6:00,HH_1080,11.74,35.3,79,Windy,0,4,1.03,Low Consumption,0,0,1,Continuous Overload,Critical,12.28,Check faulty appliances
+11/01/25 9:00,HH_1107,4.26,24.6,78,Windy,1,3,1.77,Low Consumption,1,1,0,Appliance Fault,Critical,5.09,Inspect wiring and meter
+11/01/25 12:00,HH_1002,14.39,22.9,90,Rainy,1,6,2.04,Normal,1,1,0,Appliance Fault,Critical,15.25,Inspect wiring and meter
+11/01/25 15:00,HH_1129,3.62,31.4,72,Cloudy,0,8,0.21,Normal,1,1,1,Continuous Overload,Critical,3.38,Inspect wiring and meter
+11/01/25 18:00,HH_1084,9.63,22.1,90,Windy,1,3,2.68,Normal,0,1,1,Power Theft,Critical,11.18,Reduce peak hour usage
+11/01/25 21:00,HH_1087,3.68,23.3,79,Rainy,0,10,3.11,Weekend Peak,1,0,0,Power Theft,Warning,3.59,Optimize AC temperature settings
+12/01/25 0:00,HH_1040,5.25,36.2,71,Sunny,1,9,4.55,Low Consumption,1,1,1,Appliance Fault,Critical,4.83,Check faulty appliances
+12/01/25 3:00,HH_1078,7.96,37.1,67,Sunny,0,6,2.82,Normal,0,1,1,Power Theft,Warning,8.63,Schedule heavy appliances during off-peak hours
+12/01/25 6:00,HH_1099,9.47,29.1,65,Sunny,0,7,3.67,Low Consumption,0,0,1,Power Theft,Critical,11.31,Inspect wiring and meter
+12/01/25 9:00,HH_1130,13.47,33.5,32,Rainy,1,10,3.18,High Evening Usage,1,1,1,Continuous Overload,Critical,15.25,Reduce peak hour usage
+12/01/25 12:00,HH_1014,3.52,36.9,71,Cloudy,0,10,4.1,Weekend Peak,1,0,1,Power Theft,Warning,4.14,Use energy-efficient devices
+12/01/25 15:00,HH_1101,7.3,21.1,75,Sunny,1,12,4.77,High Evening Usage,0,1,1,Power Theft,Critical,7.25,Inspect wiring and meter
+12/01/25 18:00,HH_1088,6.01,40.7,61,Rainy,0,4,0.56,Normal,0,1,0,Continuous Overload,Warning,5.7,Schedule heavy appliances during off-peak hours
+12/01/25 21:00,HH_1043,8.15,35.3,32,Stormy,0,9,3.7,Work From Home,0,0,1,Continuous Overload,Warning,8.23,Schedule heavy appliances during off-peak hours
+13/01/25 0:00,HH_1113,10.3,29.1,48,Stormy,1,4,4.92,Low Consumption,0,1,0,Continuous Overload,Critical,10.98,Inspect wiring and meter
+13/01/25 3:00,HH_1133,14.33,38.4,48,Sunny,1,9,5.44,High Evening Usage,1,0,0,Continuous Overload,Critical,16.9,Check faulty appliances
+13/01/25 6:00,HH_1014,8.49,27.5,53,Rainy,0,7,1.42,Weekend Peak,0,1,0,Appliance Fault,Warning,8.37,Use energy-efficient devices
+13/01/25 9:00,HH_1036,12.04,36.2,60,Stormy,0,2,1.61,High Evening Usage,1,0,1,Appliance Fault,Critical,11.28,Inspect wiring and meter
+13/01/25 12:00,HH_1108,3.47,33.3,69,Stormy,1,11,3.26,Low Consumption,0,0,1,Continuous Overload,Warning,3.76,Optimize AC temperature settings
+13/01/25 15:00,HH_1147,10.61,28,72,Sunny,1,3,5.73,Low Consumption,0,1,1,Power Theft,Critical,12.67,Check faulty appliances
+13/01/25 18:00,HH_1005,6.24,26.6,34,Cloudy,0,11,4.44,Weekend Peak,0,0,1,Unexpected Spike,Warning,7.17,Schedule heavy appliances during off-peak hours
+13/01/25 21:00,HH_1119,15.08,41.5,60,Rainy,0,9,0.32,High Evening Usage,0,0,0,None,Normal,15,No action required
+14/01/25 0:00,HH_1080,9.84,30.4,82,Windy,0,12,1.23,Weekend Peak,0,1,1,Power Theft,Critical,10.15,Check faulty appliances
+14/01/25 3:00,HH_1113,17.59,39.5,54,Cloudy,1,9,2.27,Low Consumption,1,0,1,Power Theft,Critical,19.01,Inspect wiring and meter
+14/01/25 6:00,HH_1140,7.58,25.1,36,Sunny,1,6,2.73,Work From Home,0,1,1,Continuous Overload,Warning,8.47,Use energy-efficient devices
+14/01/25 9:00,HH_1112,3.66,24.6,80,Sunny,1,7,3.13,High Evening Usage,0,0,1,Power Theft,Warning,3.37,Schedule heavy appliances during off-peak hours
+14/01/25 12:00,HH_1094,3,26.7,90,Windy,0,12,2.75,Weekend Peak,1,1,0,Appliance Fault,Critical,3.06,Reduce peak hour usage
+14/01/25 15:00,HH_1072,13.9,24,37,Sunny,1,10,2.38,Low Consumption,0,1,1,Continuous Overload,Warning,16.66,Use energy-efficient devices
+14/01/25 18:00,HH_1126,9.51,22.8,38,Sunny,1,3,4.88,Weekend Peak,1,0,1,Unexpected Spike,Warning,10.59,Schedule heavy appliances during off-peak hours
+14/01/25 21:00,HH_1045,4.38,37,62,Rainy,0,4,1.5,Work From Home,0,1,1,Continuous Overload,Warning,4.75,Optimize AC temperature settings
+15/01/25 0:00,HH_1017,10.65,25.4,75,Stormy,1,11,0.54,Weekend Peak,0,1,1,Unexpected Spike,Warning,12.39,Schedule heavy appliances during off-peak hours
+15/01/25 3:00,HH_1047,10.29,36.4,38,Stormy,0,3,3.16,Weekend Peak,0,0,1,Appliance Fault,Critical,12.19,Reduce peak hour usage
+15/01/25 6:00,HH_1073,12.34,38.3,46,Rainy,1,4,3.79,Low Consumption,0,0,0,None,Normal,11.74,No action required
+15/01/25 9:00,HH_1087,15.29,38.2,66,Sunny,0,3,0.37,Low Consumption,1,0,1,Power Theft,Critical,17.84,Reduce peak hour usage
+15/01/25 12:00,HH_1075,6.3,33.4,49,Stormy,1,6,2.78,Normal,0,1,1,Continuous Overload,Critical,6.06,Reduce peak hour usage
+15/01/25 15:00,HH_1037,13.88,25.5,75,Cloudy,1,8,0.87,Weekend Peak,0,1,0,Continuous Overload,Warning,13.61,Optimize AC temperature settings
+15/01/25 18:00,HH_1037,15.89,20.3,48,Stormy,1,5,5.78,High Evening Usage,1,1,0,Appliance Fault,Critical,19.05,Check faulty appliances
+15/01/25 21:00,HH_1128,3.9,39.1,61,Sunny,1,10,2.8,High Evening Usage,0,1,0,Power Theft,Critical,4.09,Reduce peak hour usage
+16/01/25 0:00,HH_1121,9.18,24.9,30,Sunny,1,7,4.61,Weekend Peak,0,1,0,Appliance Fault,Critical,9.79,Inspect wiring and meter
+16/01/25 3:00,HH_1099,6.84,30.1,78,Windy,0,4,5.85,Work From Home,1,1,1,Appliance Fault,Warning,7.39,Use energy-efficient devices
+16/01/25 6:00,HH_1129,13.56,19,32,Rainy,1,10,2.8,Low Consumption,0,1,1,Appliance Fault,Critical,16.23,Reduce peak hour usage
+16/01/25 9:00,HH_1077,10.75,32.2,62,Windy,1,9,4.91,Weekend Peak,1,0,1,Unexpected Spike,Warning,11.6,Use energy-efficient devices
+16/01/25 12:00,HH_1149,11.54,31.9,76,Sunny,0,10,3.81,Low Consumption,1,0,0,Power Theft,Warning,11.05,Use energy-efficient devices
+16/01/25 15:00,HH_1081,8.86,28.1,56,Rainy,1,2,4.26,Low Consumption,0,1,1,Continuous Overload,Critical,10.52,Check faulty appliances
+16/01/25 18:00,HH_1137,11.96,26.2,52,Cloudy,0,5,1.75,Weekend Peak,0,1,1,Appliance Fault,Critical,11.9,Check faulty appliances
+16/01/25 21:00,HH_1144,6.96,40.4,80,Cloudy,1,8,4.93,High Evening Usage,1,0,1,Power Theft,Critical,8.19,Reduce peak hour usage
+17/01/25 0:00,HH_1066,15.33,35.9,43,Rainy,1,10,4.21,High Evening Usage,0,0,0,None,Normal,14.03,No action required
+17/01/25 3:00,HH_1136,4.05,23.4,44,Sunny,1,9,0.69,High Evening Usage,0,0,1,Continuous Overload,Critical,4.44,Check faulty appliances
+17/01/25 6:00,HH_1083,12.61,24.8,33,Sunny,0,10,4.46,Normal,0,1,0,Power Theft,Critical,14.33,Inspect wiring and meter
+17/01/25 9:00,HH_1075,11.3,39,30,Cloudy,0,7,1.78,Low Consumption,1,0,1,Unexpected Spike,Warning,12.91,Use energy-efficient devices
+17/01/25 12:00,HH_1042,13.64,35.5,71,Cloudy,0,7,4.77,Low Consumption,0,0,1,Continuous Overload,Critical,12.63,Reduce peak hour usage
+17/01/25 15:00,HH_1025,7.52,22.4,38,Stormy,0,2,1.64,High Evening Usage,1,1,1,Unexpected Spike,Warning,7.36,Use energy-efficient devices
+17/01/25 18:00,HH_1061,7.26,19.5,37,Stormy,1,12,3.06,Weekend Peak,0,1,1,Appliance Fault,Warning,8.62,Use energy-efficient devices
+17/01/25 21:00,HH_1040,8.95,28.9,68,Cloudy,1,10,4.83,High Evening Usage,0,0,1,Unexpected Spike,Warning,10.52,Optimize AC temperature settings
+18/01/25 0:00,HH_1016,5.63,37.9,87,Windy,0,4,2.04,Low Consumption,1,0,0,Continuous Overload,Warning,6.59,Use energy-efficient devices
+18/01/25 3:00,HH_1015,9.58,28.9,62,Stormy,0,10,2.83,Weekend Peak,0,1,1,Power Theft,Warning,10.28,Optimize AC temperature settings
+18/01/25 6:00,HH_1109,17.91,26.3,34,Windy,0,9,0.29,Work From Home,0,0,1,Unexpected Spike,Critical,18.53,Check faulty appliances
+18/01/25 9:00,HH_1097,4.56,19.9,72,Windy,1,3,1.15,Low Consumption,1,0,0,Power Theft,Warning,5.44,Use energy-efficient devices
+18/01/25 12:00,HH_1140,6.34,28.2,54,Rainy,1,4,1.73,Normal,0,1,0,Appliance Fault,Warning,5.83,Schedule heavy appliances during off-peak hours
+18/01/25 15:00,HH_1009,6.29,28.7,73,Sunny,0,8,2.69,Low Consumption,0,0,0,None,Normal,6.61,No action required
+18/01/25 18:00,HH_1075,7.44,23.6,88,Windy,1,5,1.88,High Evening Usage,0,1,1,Unexpected Spike,Warning,7.94,Schedule heavy appliances during off-peak hours
+18/01/25 21:00,HH_1045,10.18,33,57,Windy,1,12,4.06,Low Consumption,1,1,1,Appliance Fault,Critical,10.31,Reduce peak hour usage
+19/01/25 0:00,HH_1122,15.79,23.8,44,Cloudy,0,9,5.5,Low Consumption,1,1,0,Continuous Overload,Warning,15.42,Use energy-efficient devices
+19/01/25 3:00,HH_1021,3.93,40.1,84,Cloudy,0,2,1.68,Low Consumption,0,0,0,None,Normal,4.49,No action required
+19/01/25 6:00,HH_1144,7.2,23.2,43,Cloudy,0,5,5.63,Normal,1,0,0,Continuous Overload,Warning,7.67,Use energy-efficient devices
+19/01/25 9:00,HH_1098,7.28,29.2,71,Cloudy,1,10,5.31,Work From Home,0,1,1,Appliance Fault,Critical,7.24,Inspect wiring and meter
+19/01/25 12:00,HH_1145,2.75,38.7,77,Rainy,1,6,1,Weekend Peak,0,1,0,Continuous Overload,Critical,2.69,Check faulty appliances
+19/01/25 15:00,HH_1126,5.12,29.1,76,Cloudy,1,4,5.51,Low Consumption,0,0,0,None,Normal,6.06,No action required
+19/01/25 18:00,HH_1013,15.56,36.3,56,Rainy,0,3,4.27,Normal,0,1,1,Power Theft,Critical,17.08,Inspect wiring and meter
+19/01/25 21:00,HH_1002,2.76,30.8,56,Sunny,1,10,5.87,Normal,1,0,0,Power Theft,Warning,2.68,Schedule heavy appliances during off-peak hours
+20/01/25 0:00,HH_1135,14.82,24.1,52,Cloudy,0,7,5.76,Work From Home,0,0,1,Power Theft,Warning,13.75,Use energy-efficient devices
+20/01/25 3:00,HH_1097,13.39,31.3,33,Sunny,0,9,5.09,Weekend Peak,0,0,0,None,Normal,12.9,No action required
+20/01/25 6:00,HH_1146,13.11,29.4,32,Sunny,1,10,3.42,Normal,0,1,0,Appliance Fault,Warning,14.76,Schedule heavy appliances during off-peak hours
+20/01/25 9:00,HH_1102,11.24,40.3,49,Rainy,1,12,5.39,Weekend Peak,1,0,0,Unexpected Spike,Warning,10.45,Optimize AC temperature settings
+20/01/25 12:00,HH_1020,17.3,26.2,79,Windy,1,7,0.27,Weekend Peak,1,1,0,Unexpected Spike,Critical,17.81,Reduce peak hour usage
+20/01/25 15:00,HH_1150,7.08,33.9,35,Windy,0,3,0.58,High Evening Usage,1,0,1,Unexpected Spike,Critical,6.6,Inspect wiring and meter
+20/01/25 18:00,HH_1079,4.08,28.7,78,Cloudy,0,4,2.64,Low Consumption,1,0,0,Power Theft,Critical,4.35,Reduce peak hour usage
+20/01/25 21:00,HH_1084,8.91,38.7,30,Cloudy,0,10,5.44,High Evening Usage,0,1,0,Appliance Fault,Critical,8.82,Check faulty appliances
+21/01/25 0:00,HH_1038,9.03,19.5,57,Cloudy,1,3,2.23,High Evening Usage,1,0,1,Power Theft,Warning,8.95,Use energy-efficient devices
+21/01/25 3:00,HH_1086,9.32,38.2,54,Cloudy,1,12,5.85,High Evening Usage,1,1,0,Continuous Overload,Critical,8.88,Check faulty appliances
+21/01/25 6:00,HH_1082,17.5,25,74,Stormy,0,7,2.32,Work From Home,1,0,0,Appliance Fault,Warning,20.75,Use energy-efficient devices
+21/01/25 9:00,HH_1054,15.19,28.5,48,Sunny,1,12,3.05,Weekend Peak,0,1,0,Continuous Overload,Critical,14.01,Reduce peak hour usage
+21/01/25 12:00,HH_1123,16.81,32,64,Windy,1,10,0.32,Weekend Peak,0,0,0,None,Normal,18.45,No action required
+21/01/25 15:00,HH_1091,11.23,22,69,Sunny,1,7,5.8,Work From Home,0,0,0,None,Normal,10.98,No action required
+21/01/25 18:00,HH_1131,13.16,35.9,65,Windy,0,9,2.31,Work From Home,0,1,0,Continuous Overload,Warning,13.01,Optimize AC temperature settings
+21/01/25 21:00,HH_1030,7.9,38,76,Rainy,1,9,4.73,Low Consumption,1,1,1,Power Theft,Critical,8.82,Check faulty appliances
+22/01/25 0:00,HH_1082,2.85,19.6,32,Sunny,1,12,0.75,High Evening Usage,0,0,0,None,Normal,2.85,No action required
+22/01/25 3:00,HH_1110,12.26,41,44,Stormy,0,12,3.98,Work From Home,0,0,1,Continuous Overload,Critical,11.05,Inspect wiring and meter
+22/01/25 6:00,HH_1053,11.45,24.7,75,Sunny,0,7,2.02,Work From Home,0,1,1,Unexpected Spike,Critical,12.4,Reduce peak hour usage
+22/01/25 9:00,HH_1030,12.07,26.4,84,Stormy,1,11,3.58,High Evening Usage,1,0,0,Unexpected Spike,Warning,11.53,Schedule heavy appliances during off-peak hours
+22/01/25 12:00,HH_1037,4.64,30.3,56,Windy,1,8,1.2,Low Consumption,0,0,1,Unexpected Spike,Warning,4.44,Use energy-efficient devices
+22/01/25 15:00,HH_1014,10.01,38.8,90,Sunny,0,8,5.79,Low Consumption,1,1,1,Continuous Overload,Critical,10.48,Inspect wiring and meter
+22/01/25 18:00,HH_1145,7.03,18.7,78,Rainy,1,5,3.27,High Evening Usage,1,1,0,Power Theft,Critical,7.96,Check faulty appliances
+22/01/25 21:00,HH_1139,10.97,37.7,32,Stormy,1,3,4.44,High Evening Usage,1,0,1,Unexpected Spike,Critical,12.71,Inspect wiring and meter
+23/01/25 0:00,HH_1113,5.75,38.8,37,Rainy,1,11,3.83,High Evening Usage,0,0,0,None,Normal,6.56,No action required
+23/01/25 3:00,HH_1146,10.85,26.4,47,Windy,1,6,1.81,Weekend Peak,0,0,1,Power Theft,Critical,12.59,Inspect wiring and meter
+23/01/25 6:00,HH_1034,15.34,24,75,Cloudy,1,9,0.94,Weekend Peak,1,1,1,Power Theft,Warning,15.66,Schedule heavy appliances during off-peak hours
+23/01/25 9:00,HH_1072,9.55,34.7,86,Cloudy,1,7,3.53,Normal,1,1,0,Continuous Overload,Warning,11.37,Optimize AC temperature settings
+23/01/25 12:00,HH_1127,7.74,24.4,83,Cloudy,0,11,5.13,Weekend Peak,0,0,0,None,Normal,8.42,No action required
+23/01/25 15:00,HH_1118,9.34,18.4,89,Rainy,0,8,1.29,High Evening Usage,1,0,1,Power Theft,Critical,9.11,Check faulty appliances
+23/01/25 18:00,HH_1043,13.75,19.2,70,Cloudy,0,8,3.97,Normal,0,0,1,Power Theft,Warning,14.82,Schedule heavy appliances during off-peak hours
+23/01/25 21:00,HH_1114,15.17,18.2,74,Cloudy,1,4,2.92,High Evening Usage,1,0,0,Power Theft,Critical,15.33,Check faulty appliances
+24/01/25 0:00,HH_1036,12.44,27.2,82,Rainy,0,3,3.23,Normal,0,1,1,Appliance Fault,Warning,14.63,Schedule heavy appliances during off-peak hours
+24/01/25 3:00,HH_1114,4.67,38.6,35,Sunny,0,11,4.41,Weekend Peak,1,1,0,Appliance Fault,Critical,5.11,Inspect wiring and meter
+24/01/25 6:00,HH_1142,6.92,32.4,76,Windy,0,12,5.27,High Evening Usage,0,1,1,Power Theft,Warning,7.26,Optimize AC temperature settings
+24/01/25 9:00,HH_1062,10.69,30,68,Sunny,0,7,5.61,High Evening Usage,1,1,1,Appliance Fault,Critical,12.68,Inspect wiring and meter
+24/01/25 12:00,HH_1005,5.84,32.1,30,Cloudy,0,8,3.09,Low Consumption,1,1,1,Power Theft,Warning,5.74,Use energy-efficient devices
+24/01/25 15:00,HH_1021,10.81,30.3,43,Rainy,1,11,3.84,Normal,1,1,0,Power Theft,Warning,10.01,Use energy-efficient devices
+24/01/25 18:00,HH_1030,7.29,28.9,68,Sunny,0,3,0.17,High Evening Usage,0,0,1,Unexpected Spike,Critical,6.93,Inspect wiring and meter
+24/01/25 21:00,HH_1069,7.69,35.6,37,Sunny,1,6,3.19,Weekend Peak,0,1,1,Unexpected Spike,Warning,8.07,Schedule heavy appliances during off-peak hours
+25/01/25 0:00,HH_1043,16.36,26.8,46,Sunny,0,5,4.47,Normal,0,0,0,None,Normal,14.95,No action required
+25/01/25 3:00,HH_1094,16.93,27.2,39,Rainy,0,10,4.84,Work From Home,0,1,0,Continuous Overload,Critical,16.61,Inspect wiring and meter
+25/01/25 6:00,HH_1147,5.28,26.9,62,Sunny,0,8,0.51,Work From Home,1,1,1,Power Theft,Critical,4.76,Inspect wiring and meter
+25/01/25 9:00,HH_1075,6.26,31.5,49,Windy,1,11,5.83,High Evening Usage,0,0,0,None,Normal,7.39,No action required
+25/01/25 12:00,HH_1007,17.24,23.6,52,Sunny,0,12,2.32,Weekend Peak,0,0,0,None,Normal,17.69,No action required
+25/01/25 15:00,HH_1016,3.94,41.3,39,Cloudy,0,10,2.54,Weekend Peak,1,0,0,Appliance Fault,Critical,3.63,Reduce peak hour usage
+25/01/25 18:00,HH_1016,7.02,28.4,38,Rainy,1,8,4.23,Weekend Peak,1,1,1,Appliance Fault,Warning,8.31,Optimize AC temperature settings
+25/01/25 21:00,HH_1150,9.47,20.6,36,Rainy,1,8,0.81,Weekend Peak,0,1,1,Continuous Overload,Critical,10.94,Inspect wiring and meter
+26/01/25 0:00,HH_1041,3.13,37.4,49,Windy,1,4,0.64,High Evening Usage,1,1,0,Unexpected Spike,Critical,3.59,Inspect wiring and meter
+26/01/25 3:00,HH_1008,11.12,40.9,84,Stormy,0,3,2.83,High Evening Usage,0,0,0,None,Normal,12.78,No action required
+26/01/25 6:00,HH_1057,8.27,21.1,82,Stormy,0,11,3.56,Normal,0,0,0,None,Normal,9.68,No action required
+26/01/25 9:00,HH_1114,4.4,37.4,35,Cloudy,1,2,1.09,Low Consumption,1,1,1,Power Theft,Critical,4.86,Inspect wiring and meter
+26/01/25 12:00,HH_1091,6.84,23.2,41,Cloudy,0,2,3.72,Low Consumption,0,1,1,Continuous Overload,Critical,6.28,Check faulty appliances
+26/01/25 15:00,HH_1099,6.36,21.3,42,Windy,0,8,4.71,Weekend Peak,1,1,1,Unexpected Spike,Critical,6.24,Inspect wiring and meter
+26/01/25 18:00,HH_1082,3.41,32.3,31,Cloudy,1,10,2.21,Low Consumption,0,0,0,None,Normal,3.32,No action required
+26/01/25 21:00,HH_1062,14.34,24.4,82,Sunny,0,11,5.09,Work From Home,1,0,0,Appliance Fault,Critical,16.37,Reduce peak hour usage
+27/01/25 0:00,HH_1092,17.19,39.9,31,Cloudy,0,11,5.7,Work From Home,1,0,1,Power Theft,Warning,15.76,Schedule heavy appliances during off-peak hours
+27/01/25 3:00,HH_1057,7.64,18.5,60,Sunny,0,4,2.11,High Evening Usage,1,0,0,Appliance Fault,Warning,8.65,Schedule heavy appliances during off-peak hours
+27/01/25 6:00,HH_1094,11.58,41.1,53,Stormy,1,6,2,High Evening Usage,1,1,1,Appliance Fault,Critical,11.2,Reduce peak hour usage
+27/01/25 9:00,HH_1045,4.47,27.1,76,Cloudy,0,11,2.41,Low Consumption,0,0,1,Appliance Fault,Warning,5.28,Optimize AC temperature settings
+27/01/25 12:00,HH_1085,17.73,35.9,45,Cloudy,0,12,5.32,Normal,1,1,0,Unexpected Spike,Warning,17.28,Optimize AC temperature settings
+27/01/25 15:00,HH_1090,3.25,24.2,36,Sunny,1,8,5.82,Work From Home,1,1,1,Continuous Overload,Warning,3.73,Schedule heavy appliances during off-peak hours
+27/01/25 18:00,HH_1058,7.07,21.9,34,Sunny,1,6,5.71,Normal,1,0,1,Appliance Fault,Warning,7.52,Optimize AC temperature settings
+27/01/25 21:00,HH_1087,13.42,32.3,69,Stormy,1,12,1.07,Work From Home,0,0,0,None,Normal,13.41,No action required
+28/01/25 0:00,HH_1049,6.61,27.8,65,Windy,1,6,1.5,Normal,1,1,0,Power Theft,Critical,5.96,Inspect wiring and meter
+28/01/25 3:00,HH_1076,9.95,37.8,70,Windy,0,2,1.32,Weekend Peak,0,1,0,Unexpected Spike,Critical,10.36,Reduce peak hour usage
+28/01/25 6:00,HH_1068,5.37,20.2,64,Stormy,1,7,1.2,Normal,1,1,1,Unexpected Spike,Warning,6.18,Schedule heavy appliances during off-peak hours
+28/01/25 9:00,HH_1016,3.83,21.6,74,Sunny,1,10,2.54,Low Consumption,0,0,1,Continuous Overload,Critical,4.11,Inspect wiring and meter
+28/01/25 12:00,HH_1122,10.28,25.2,55,Sunny,0,3,5.7,Work From Home,0,0,0,None,Normal,11.75,No action required
+28/01/25 15:00,HH_1033,5.63,19,35,Stormy,0,11,1.62,Normal,0,1,1,Unexpected Spike,Critical,5.94,Inspect wiring and meter
+28/01/25 18:00,HH_1134,4.82,36.8,37,Stormy,0,3,3.42,Normal,1,1,1,Unexpected Spike,Critical,5.28,Reduce peak hour usage
+28/01/25 21:00,HH_1122,4.73,18.9,47,Stormy,1,2,2.44,Weekend Peak,0,0,1,Unexpected Spike,Critical,4.29,Check faulty appliances
+29/01/25 0:00,HH_1080,17.57,24.7,61,Sunny,0,4,1.87,Work From Home,1,1,1,Power Theft,Warning,18.14,Use energy-efficient devices
+29/01/25 3:00,HH_1125,15.23,36.2,85,Cloudy,0,3,1.94,Low Consumption,1,0,0,Appliance Fault,Warning,17.71,Optimize AC temperature settings
+29/01/25 6:00,HH_1015,16.73,24,59,Sunny,0,6,2.27,Work From Home,1,0,0,Appliance Fault,Critical,17.51,Check faulty appliances
+29/01/25 9:00,HH_1046,11.05,41.1,60,Windy,1,4,5.04,Weekend Peak,0,1,0,Continuous Overload,Warning,10.49,Schedule heavy appliances during off-peak hours
+29/01/25 12:00,HH_1055,13,38.6,71,Rainy,1,12,2.52,Normal,0,1,0,Appliance Fault,Warning,12.57,Schedule heavy appliances during off-peak hours
+29/01/25 15:00,HH_1079,9.07,35.1,75,Cloudy,1,7,2.81,High Evening Usage,1,1,1,Power Theft,Warning,9.55,Schedule heavy appliances during off-peak hours
+29/01/25 18:00,HH_1096,6.88,31.5,68,Windy,0,9,0.48,Weekend Peak,1,1,1,Unexpected Spike,Warning,6.5,Optimize AC temperature settings
+29/01/25 21:00,HH_1015,8.76,37.3,81,Windy,1,12,0.93,Normal,1,1,1,Continuous Overload,Critical,8.9,Inspect wiring and meter
+30/01/25 0:00,HH_1150,7.82,35,66,Rainy,0,12,3.25,Work From Home,1,1,0,Appliance Fault,Critical,7.27,Inspect wiring and meter
+30/01/25 3:00,HH_1067,17.18,35.4,65,Rainy,1,12,0.63,Weekend Peak,0,1,1,Unexpected Spike,Critical,16.8,Check faulty appliances
+30/01/25 6:00,HH_1119,15.93,38.4,60,Sunny,0,9,5.35,Low Consumption,0,1,1,Continuous Overload,Warning,18.5,Optimize AC temperature settings
+30/01/25 9:00,HH_1036,17.8,41.8,51,Stormy,1,4,1.97,High Evening Usage,0,1,1,Appliance Fault,Critical,19.41,Inspect wiring and meter
+30/01/25 12:00,HH_1116,11.43,24.6,78,Rainy,0,9,4.73,Normal,0,1,1,Continuous Overload,Critical,13.6,Check faulty appliances
+30/01/25 15:00,HH_1002,17.23,18.9,42,Cloudy,1,10,1.22,Normal,0,0,1,Unexpected Spike,Warning,16.04,Schedule heavy appliances during off-peak hours
+30/01/25 18:00,HH_1079,7.12,22,82,Sunny,1,9,4.39,Low Consumption,1,1,0,Unexpected Spike,Critical,7.18,Inspect wiring and meter
+30/01/25 21:00,HH_1043,2.8,40.8,88,Stormy,0,4,1.35,Normal,0,0,1,Power Theft,Critical,3.26,Check faulty appliances
+31/01/25 0:00,HH_1137,12.76,33,68,Sunny,0,2,4.17,Work From Home,1,1,0,Unexpected Spike,Critical,14.17,Inspect wiring and meter
+31/01/25 3:00,HH_1003,12.77,25.2,72,Sunny,1,11,3.67,High Evening Usage,1,0,0,Unexpected Spike,Warning,14.5,Use energy-efficient devices
+31/01/25 6:00,HH_1051,15.39,32.6,79,Cloudy,0,7,4.25,Weekend Peak,0,0,1,Appliance Fault,Critical,15.38,Inspect wiring and meter
+31/01/25 9:00,HH_1004,15.45,34.1,88,Sunny,1,4,5.7,Low Consumption,0,0,1,Appliance Fault,Critical,18.49,Check faulty appliances
+31/01/25 12:00,HH_1068,16.05,29.1,36,Rainy,1,7,4.83,Weekend Peak,1,0,0,Power Theft,Warning,18.55,Schedule heavy appliances during off-peak hours
+31/01/25 15:00,HH_1044,17.3,25.9,87,Stormy,1,3,2.3,Weekend Peak,0,0,1,Continuous Overload,Critical,16.98,Check faulty appliances
+31/01/25 18:00,HH_1123,4.25,37.2,71,Rainy,0,4,0.71,Low Consumption,1,1,0,Continuous Overload,Critical,4.6,Reduce peak hour usage
+31/01/25 21:00,HH_1034,16.26,29.6,61,Sunny,1,2,0.47,Weekend Peak,0,0,1,Power Theft,Critical,17.86,Inspect wiring and meter
+01/02/25 0:00,HH_1124,4.8,26.3,73,Stormy,0,2,3.9,High Evening Usage,1,1,0,Power Theft,Critical,4.78,Check faulty appliances
+01/02/25 3:00,HH_1072,12.47,19.2,44,Windy,1,5,0.57,Work From Home,1,0,1,Continuous Overload,Critical,11.67,Check faulty appliances
+01/02/25 6:00,HH_1005,11.14,20.5,56,Sunny,0,3,4.77,Low Consumption,1,0,1,Unexpected Spike,Critical,12.78,Inspect wiring and meter
+01/02/25 9:00,HH_1117,11.8,26,79,Windy,1,9,0.77,High Evening Usage,0,1,1,Unexpected Spike,Critical,13.11,Inspect wiring and meter
+01/02/25 12:00,HH_1043,4.16,29.8,82,Stormy,0,5,0.81,Work From Home,0,1,0,Unexpected Spike,Warning,4.69,Optimize AC temperature settings
+01/02/25 15:00,HH_1032,12.71,36.5,58,Stormy,0,9,0.13,Normal,1,1,0,Appliance Fault,Warning,11.83,Schedule heavy appliances during off-peak hours
+01/02/25 18:00,HH_1083,17.68,30.1,54,Stormy,0,6,2.45,Weekend Peak,1,1,0,Appliance Fault,Critical,19.11,Reduce peak hour usage
+01/02/25 21:00,HH_1132,15.84,25.2,74,Windy,0,5,1.34,Weekend Peak,1,0,0,Unexpected Spike,Warning,17.87,Schedule heavy appliances during off-peak hours
+02/02/25 0:00,HH_1123,12.95,32,90,Stormy,1,8,4.87,Low Consumption,0,0,1,Appliance Fault,Warning,14.26,Optimize AC temperature settings
+02/02/25 3:00,HH_1069,13.09,36,40,Cloudy,0,2,4.17,Weekend Peak,0,0,1,Continuous Overload,Warning,14.2,Schedule heavy appliances during off-peak hours
+02/02/25 6:00,HH_1144,8.53,38.8,77,Windy,1,12,0.38,Work From Home,1,1,1,Power Theft,Warning,9.58,Optimize AC temperature settings
+02/02/25 9:00,HH_1114,14.2,37.9,88,Cloudy,0,5,1.84,High Evening Usage,0,0,0,None,Normal,15.91,No action required
+02/02/25 12:00,HH_1031,11.13,27.1,57,Cloudy,0,4,3.55,Weekend Peak,0,1,1,Appliance Fault,Warning,10.53,Use energy-efficient devices
+02/02/25 15:00,HH_1014,15.57,36.6,70,Windy,1,9,4.76,Low Consumption,1,0,1,Appliance Fault,Warning,16.44,Schedule heavy appliances during off-peak hours
+02/02/25 18:00,HH_1041,3.93,28,64,Stormy,0,5,4.01,Weekend Peak,1,1,0,Continuous Overload,Warning,3.67,Use energy-efficient devices
+02/02/25 21:00,HH_1115,16.74,23.8,71,Windy,0,2,4.13,Weekend Peak,1,0,1,Unexpected Spike,Critical,15.19,Reduce peak hour usage
+03/02/25 0:00,HH_1096,10.05,30.3,62,Stormy,1,12,1.24,Low Consumption,0,0,0,None,Normal,11.97,No action required
+03/02/25 3:00,HH_1138,5.77,30.8,70,Sunny,0,12,2.6,Normal,0,1,0,Appliance Fault,Warning,5.99,Use energy-efficient devices
+03/02/25 6:00,HH_1010,14.81,20.1,33,Rainy,0,11,4.95,Weekend Peak,1,1,1,Continuous Overload,Critical,14.73,Check faulty appliances
+03/02/25 9:00,HH_1031,3.48,30.8,71,Windy,0,3,2.21,Low Consumption,0,1,1,Power Theft,Critical,3.93,Check faulty appliances
+03/02/25 12:00,HH_1098,9.85,27.5,72,Sunny,0,4,4.51,Low Consumption,1,0,1,Unexpected Spike,Warning,10.5,Schedule heavy appliances during off-peak hours
+03/02/25 15:00,HH_1037,11.75,21,30,Windy,0,6,1.34,Weekend Peak,0,1,0,Appliance Fault,Warning,11.35,Use energy-efficient devices
+03/02/25 18:00,HH_1050,15.71,20.8,72,Windy,1,12,3.34,Weekend Peak,0,1,0,Appliance Fault,Critical,18.62,Check faulty appliances
+03/02/25 21:00,HH_1033,6.92,34.1,45,Sunny,0,5,1.97,Work From Home,1,1,0,Unexpected Spike,Critical,8.22,Inspect wiring and meter
+04/02/25 0:00,HH_1002,13.54,25.5,80,Rainy,1,6,5.06,High Evening Usage,1,1,1,Continuous Overload,Critical,15.33,Check faulty appliances
+04/02/25 3:00,HH_1142,3.77,20.6,71,Windy,1,4,5.36,High Evening Usage,1,0,0,Power Theft,Warning,4.31,Schedule heavy appliances during off-peak hours
+04/02/25 6:00,HH_1104,11.05,36.5,43,Sunny,1,12,4.67,Weekend Peak,1,0,1,Appliance Fault,Critical,11.61,Inspect wiring and meter
+04/02/25 9:00,HH_1102,15.64,26.7,30,Rainy,0,10,0.93,High Evening Usage,0,0,1,Unexpected Spike,Warning,15.1,Use energy-efficient devices
+04/02/25 12:00,HH_1060,3.16,19.5,53,Rainy,0,10,5.46,Weekend Peak,1,1,1,Power Theft,Warning,3.77,Use energy-efficient devices
+04/02/25 15:00,HH_1027,15.44,34.9,63,Cloudy,1,11,3.31,High Evening Usage,1,1,1,Power Theft,Critical,15.64,Inspect wiring and meter
+04/02/25 18:00,HH_1133,10.05,27.7,82,Cloudy,1,11,0.14,High Evening Usage,1,0,0,Power Theft,Critical,9.68,Inspect wiring and meter
+04/02/25 21:00,HH_1041,12.75,26.7,75,Sunny,1,7,4.35,Work From Home,1,1,0,Appliance Fault,Critical,11.56,Inspect wiring and meter
+05/02/25 0:00,HH_1033,12.26,31.8,40,Rainy,0,11,0.97,High Evening Usage,1,0,1,Power Theft,Critical,14.52,Inspect wiring and meter
+05/02/25 3:00,HH_1115,5.14,32.6,60,Stormy,1,11,0.94,Low Consumption,0,1,0,Unexpected Spike,Critical,5.55,Inspect wiring and meter
+05/02/25 6:00,HH_1059,2.76,27.1,38,Sunny,1,4,3.67,High Evening Usage,1,0,0,Power Theft,Critical,3.03,Reduce peak hour usage
+05/02/25 9:00,HH_1139,10.59,37.9,87,Stormy,1,2,4.22,Work From Home,0,1,1,Unexpected Spike,Warning,10.88,Use energy-efficient devices
+05/02/25 12:00,HH_1123,6.89,36.4,88,Sunny,1,6,1.22,Normal,0,0,1,Appliance Fault,Critical,7.05,Inspect wiring and meter
+05/02/25 15:00,HH_1040,6.55,28.2,67,Cloudy,1,11,2.26,Weekend Peak,1,0,1,Continuous Overload,Warning,6.62,Schedule heavy appliances during off-peak hours
+05/02/25 18:00,HH_1124,7.84,24.1,49,Windy,1,4,5.14,Normal,0,1,0,Power Theft,Warning,8.25,Use energy-efficient devices
+05/02/25 21:00,HH_1141,4.99,32.7,73,Sunny,0,3,4.96,Work From Home,1,0,0,Unexpected Spike,Warning,5.05,Schedule heavy appliances during off-peak hours
+06/02/25 0:00,HH_1010,12.02,35.4,89,Stormy,1,11,0.44,High Evening Usage,1,1,0,Appliance Fault,Critical,11.52,Reduce peak hour usage
+06/02/25 3:00,HH_1131,5.13,30.4,44,Windy,0,7,1.51,Normal,0,0,1,Continuous Overload,Critical,5.65,Check faulty appliances
+06/02/25 6:00,HH_1052,16.75,30.4,77,Sunny,1,10,5.5,Weekend Peak,1,1,0,Appliance Fault,Critical,19.75,Reduce peak hour usage
+06/02/25 9:00,HH_1002,4.15,24.3,56,Windy,0,10,1.84,Normal,1,1,1,Continuous Overload,Critical,4.69,Check faulty appliances
+06/02/25 12:00,HH_1118,15.86,34.4,87,Windy,1,3,1.62,Work From Home,0,0,1,Continuous Overload,Critical,16.73,Inspect wiring and meter
+06/02/25 15:00,HH_1068,12.94,24,35,Stormy,1,3,3.37,High Evening Usage,1,1,1,Appliance Fault,Critical,12.36,Reduce peak hour usage
+06/02/25 18:00,HH_1049,13.9,30,42,Rainy,1,5,1.45,High Evening Usage,1,0,0,Power Theft,Warning,15.33,Schedule heavy appliances during off-peak hours
+06/02/25 21:00,HH_1127,17.35,32.7,78,Windy,1,7,3.76,Work From Home,1,1,0,Unexpected Spike,Critical,16.77,Reduce peak hour usage
+07/02/25 0:00,HH_1033,9.91,19.3,81,Stormy,0,10,2.15,High Evening Usage,1,0,1,Unexpected Spike,Warning,8.95,Optimize AC temperature settings
+07/02/25 3:00,HH_1098,12,31.9,50,Cloudy,1,4,3.34,High Evening Usage,1,1,1,Unexpected Spike,Warning,12.6,Optimize AC temperature settings
+07/02/25 6:00,HH_1108,15.74,34.8,53,Cloudy,1,9,1.16,High Evening Usage,0,0,1,Appliance Fault,Critical,18.21,Inspect wiring and meter
+07/02/25 9:00,HH_1038,9.83,37.2,77,Rainy,0,4,2.59,High Evening Usage,1,1,1,Unexpected Spike,Warning,10.02,Schedule heavy appliances during off-peak hours

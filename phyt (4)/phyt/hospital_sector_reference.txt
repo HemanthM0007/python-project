@@ -1,0 +1,97 @@
+========================================================================
+INFRA SENSE AI - SMART HOSPITAL MONITORING & ANOMALY DETECTION SYSTEM
+========================================================================
+Tagline: "Predict. Detect. Prevent."
+Operational Scope: Hospital Sector Dashboard & Health AI Core
+
+This reference document outlines the key components, parameters, and AI model 
+architectures integrated into the Hospital Sector operational domain.
+
+------------------------------------------------------------------------
+1. GENERAL INFRASTRUCTURE & VITAL METRICS
+------------------------------------------------------------------------
+The system processes continuous patient telemetry and clinical loads across 8 
+primary glowing KPI monitors:
+  * Deterioration Score: Continuous risk assessment (0-100 scale).
+  * ICU Admission Probability: Likelihood of escalating care (0-100%).
+  * Emergency Readmission Risk: 30-day readmission prediction (0-100%).
+  * Doctor/Staff Workload: Active patient load per clinical practitioner.
+  * Critical Bed Occupancy: ICU and emergency ward space saturation (%).
+  * Combined Risk Index: Integrated vital-sign distress indicator.
+  * Active Hospital Anomalies: Unacknowledged clinical warning states.
+  * Clinical Core Health: Operational infrastructure status (%)
+
+------------------------------------------------------------------------
+2. AI RANDOM FOREST MODEL REPLICAS (CLIENT-SIDE)
+------------------------------------------------------------------------
+The client-side prediction engine runs deterministic replicas of the trained 
+Random Forest models based on "hospital.csv" telemetry:
+
+  A. Classifier Model Replica (predictTrainedModel):
+     * Input Features: Patient age, stay days, medications, workload, bed occupancy.
+     * Categorical Isolation: 
+       - "Normal Operations" (Nominal biosignals)
+       - "Silent Patient Deterioration" (Elevated deterioration, ICU history)
+       - "Recovery Degradation Pattern" (Low recovery status, high stay duration)
+       - "Hospital Resource Overload" (90%+ bed occupancy, heavy doctor load)
+
+  B. Regressor Model Replica (ICU Escalation/Risk):
+     * Computes the continuous ICU risk index using a weighted linear representation:
+       Risk = (StayDays * 1.5) + (Meds * 2.2) + (Workload * 0.8) + (Occupancy * 0.6)
+     * R-squared (R2): 79.02% precision target.
+
+------------------------------------------------------------------------
+3. DYNAMIC SIMULATION OVERRIDES (CRASH TESTS)
+------------------------------------------------------------------------
+To validate medical alert logic and neon telemetry transitions, three 
+specialized manual crash testing modules are built into the UI:
+
+  A. Silent Patient Deterioration (CRIMSON EMERGENCY MODE):
+     * Action: Simulates critical cardiovascular/respiratory collapse.
+     * Dashboard Response: Cards flash Crimson; triggers automated ICU 
+       escalation prompts and rapid response notifications.
+
+  B. Recovery Decay Pattern (AMBER WARNING MODE):
+     * Action: Simulates gradual patient recovery decay after surgery.
+     * Dashboard Response: Shift to Amber glow; triggers post-op medication 
+       audit and dynamic discharge postponement recommendations.
+
+  C. Hospital Resource Saturation (TEAL OPTIMIZATION MODE):
+     * Action: Simulates a mass casualty or critical ward overload.
+     * Dashboard Response: Shift to Teal accents; triggers dynamic bed 
+       reallocation and automated staff scheduling adjustment logs.
+
+------------------------------------------------------------------------
+4. 10 INTERACTIVE RECHARTS VISUALIZATIONS
+------------------------------------------------------------------------
+Ten specialized chart widgets are mapped to track clinical workflows:
+  1. Real-time Patient Vitals: Compares Deterioration vs Combined Risk scores.
+  2. ICU Risk Trend Graph: Multi-hour risk timeline monitoring.
+  3. Recovery Degradation Timeline: Dotted forecast showing predicted decay.
+  4. Readmission Prediction Model: Dashed confidence intervals for discharge.
+  5. Resource Utilization Grid: Occupancy vs workload matrix.
+  6. Hospital Risk Gauge: Radial Threat Assessment Dial.
+  7. Bed Occupancy Analytics: Shaded area chart tracking capacity.
+  8. Doctor Workload Graph: Comparison bars tracking clinician overload.
+  9. Anomaly Distribution: Pie chart breaking down active anomaly types.
+  10. Treatment Complexity: Stacked bar chart mapping complex care metrics.
+
+------------------------------------------------------------------------
+5. LOCALIZED CLINICAL AI ASSISTANT
+------------------------------------------------------------------------
+* Isolated floating widget in the bottom right (and dedicated console tab).
+* Uses the separate "hospitalChatMessages" state to avoid sharing data 
+  with the Residential sector.
+* Translates between English, Hindi (हिन्दी), and Kannada (ಕನ್ನಡ) on the fly.
+* Provides root-cause diagnostics for medical telemetry queries (e.g., ICU 
+  risk explanation, resource load balancing, and readmission reviews).
+
+------------------------------------------------------------------------
+6. FILE REFERENCES
+------------------------------------------------------------------------
+* Main UI Codebase: src/pages/UserDashboard.jsx
+* Global Context Core: src/context/SystemContext.jsx
+* Web Layout: src/layouts/DashboardLayout.jsx
+* Data Pipeline Source: public/hospital.csv
+* Training Pipeline: hospital.py (Python training script)
+========================================================================

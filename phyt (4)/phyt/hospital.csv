@@ -1,0 +1,301 @@
+patient_id,patient_name,age,gender,chronic_disease,icu_history,previous_admissions,hospital_stay_days,medications_count,emergency_visits,treatment_complexity,recovery_status,doctor_workload,bed_occupancy_percent,appointment_conflicts,billing_amount,readmission_risk,deterioration_score,detected_anomaly,record_date,record_date_year,record_date_month,record_date_day,record_date_hour,age_to_previous_admissions_ratio,age_previous_admissions_difference,combined_risk_score,anomaly_flag
+P001,Melissa Sexton,23,Female,Unknown,No,4,21,8,2,Low,Critical,34,70,1,26997,Low,94,Silent Patient Deterioration,12/12/25,2025,12,12,0,4.6,19,16,1
+P002,Joseph Lopez,36,Female,Hypertension,Yes,4,1,1,5,Medium,Stable,28,54,5,16643,High,60,Recovery Degradation Pattern,21/01/26,2026,1,21,0,7.2,32,13.667,0
+P003,Michael Gould,62,Male,Hypertension,No,7,3,1,2,High,Moderate,55,50,0,42135,High,52,Recovery Degradation Pattern,24/02/26,2026,2,24,0,7.75,55,24,0
+P004,Paul Oconnor,35,Male,Hypertension,No,5,12,4,4,Medium,Critical,28,97,5,18127,Medium,77,Silent Patient Deterioration,20/12/25,2025,12,20,0,5.833,30,17.333,1
+P005,Megan Strickland,40,Male,Hypertension,No,0,11,10,3,Low,Critical,60,49,0,29853,Medium,64,Hospital Resource Overload,11/12/25,2025,12,11,0,40,40,17,1
+P006,Mark Stanley,86,Female,Asthma,Yes,2,14,1,1,High,Stable,53,62,0,16127,High,60,Hospital Resource Overload,13/04/26,2026,4,13,0,28.667,84,34,0
+P007,Annette Schroeder,25,Male,Hypertension,Yes,6,10,1,2,Medium,Stable,13,68,2,17267,High,76,Silent Patient Deterioration,22/05/26,2026,5,22,0,3.571,19,13.667,0
+P008,Stacey Khan,53,Female,Asthma,Yes,6,2,9,4,Medium,Moderate,23,99,2,7173,Low,92,Silent Patient Deterioration,06/03/26,2026,3,6,0,7.571,47,20.333,0
+P009,Mr. Mark Bryant,86,Female,Diabetes,Yes,7,22,7,2,Medium,Stable,16,99,2,33273,High,123,Silent Patient Deterioration,11/12/25,2025,12,11,0,10.75,79,38.333,0
+P010,Timothy Williamson,29,Male,Hypertension,Yes,4,23,1,1,Low,Stable,31,82,1,44702,Medium,88,Silent Patient Deterioration,09/01/26,2026,1,9,0,5.8,25,18.667,0
+P011,Susan Herrera,86,Male,Hypertension,Yes,7,9,7,2,Low,Stable,44,73,4,3027,Medium,97,Silent Patient Deterioration,23/02/26,2026,2,23,0,10.75,79,34,0
+P012,Lee Rodriguez,32,Female,Unknown,No,8,1,4,3,Low,Moderate,30,96,2,4724,High,66,Recovery Degradation Pattern,12/12/25,2025,12,12,0,3.556,24,13.667,0
+P013,Lauren Williams,83,Female,Unknown,Yes,3,22,9,4,Low,Moderate,7,70,1,44174,Low,117,Silent Patient Deterioration,04/02/26,2026,2,4,0,20.75,80,36,0
+P014,Donna Sutton,59,Female,Diabetes,No,2,21,1,2,Medium,Stable,55,56,5,37401,Low,63,Hospital Resource Overload,26/05/26,2026,5,26,0,19.667,57,27.333,0
+P015,Madeline Rivera,61,Female,Unknown,No,5,5,7,5,High,Critical,60,58,3,28974,Medium,76,Silent Patient Deterioration,07/05/26,2026,5,7,0,10.167,56,23.667,1
+P016,Jacob Walters,60,Male,Hypertension,No,1,15,3,4,Medium,Moderate,10,75,0,30185,High,60,Normal,08/05/26,2026,5,8,0,30,59,25.333,0
+P017,Edwin Shepherd,38,Female,Hypertension,Yes,7,17,7,1,Medium,Stable,12,40,1,23850,High,109,Silent Patient Deterioration,14/04/26,2026,4,14,0,4.75,31,20.667,0
+P018,Kerry Santiago,51,Male,Diabetes,Yes,1,4,6,2,Low,Moderate,42,73,4,29981,Medium,54,Normal,22/12/25,2025,12,22,0,25.5,50,18.667,0
+P019,Matthew Barrett,90,Female,Hypertension,Yes,1,9,9,5,Medium,Critical,36,52,2,46651,High,85,Silent Patient Deterioration,19/05/26,2026,5,19,0,45,89,33.333,1
+P020,Dana Sawyer,74,Female,Asthma,Yes,3,13,6,5,Medium,Moderate,17,51,1,38904,High,94,Silent Patient Deterioration,07/04/26,2026,4,7,0,18.5,71,30,0
+P021,Patrick Lewis,29,Female,Hypertension,No,8,6,4,4,Low,Moderate,10,92,1,39615,Medium,80,Silent Patient Deterioration,14/04/26,2026,4,14,0,3.222,21,14.333,0
+P022,Brandon Martinez,80,Male,Heart Disease,Yes,8,3,1,2,Medium,Moderate,28,77,1,46730,High,72,Silent Patient Deterioration,06/04/26,2026,4,6,0,8.889,72,30.333,0
+P023,Carolyn Robertson,69,Male,Hypertension,No,1,3,2,0,High,Critical,11,92,5,4131,Medium,17,Hospital Resource Overload,20/02/26,2026,2,20,0,34.5,68,24.333,1
+P024,Kim Johns,72,Male,Hypertension,No,5,11,3,1,Medium,Moderate,36,80,1,12419,Low,60,Recovery Degradation Pattern,03/02/26,2026,2,3,0,12,67,29.333,0
+P025,Steven Wheeler,35,Female,Heart Disease,Yes,2,3,5,2,Low,Stable,5,68,0,42480,Low,54,Normal,13/04/26,2026,4,13,0,11.667,33,13.333,0
+P026,Tonya Dougherty,58,Male,Hypertension,No,4,5,3,2,Medium,Moderate,14,80,3,23355,Medium,47,Recovery Degradation Pattern,28/02/26,2026,2,28,0,11.6,54,22.333,0
+P027,William Lynch,59,Female,Asthma,Yes,8,5,4,2,High,Moderate,31,56,4,11121,Low,85,Silent Patient Deterioration,25/03/26,2026,3,25,0,6.556,51,24,0
+P028,Paul Davis,43,Male,Unknown,No,8,19,6,4,Low,Critical,32,98,5,38679,Medium,112,Silent Patient Deterioration,10/01/26,2026,1,10,0,4.778,35,23.333,1
+P029,Barry Hartman,52,Male,Diabetes,No,6,8,7,3,High,Moderate,40,43,2,8047,High,79,Silent Patient Deterioration,07/02/26,2026,2,7,0,7.429,46,22,0
+P030,Kurt Golden,49,Male,Hypertension,Yes,1,1,6,0,Medium,Critical,20,79,2,2891,High,40,Normal,13/02/26,2026,2,13,0,24.5,48,17,1
+P031,Cathy Peterson,36,Male,Heart Disease,Yes,4,11,5,5,Low,Stable,40,66,3,41730,High,92,Silent Patient Deterioration,16/03/26,2026,3,16,0,7.2,32,17,0
+P032,John Kirk,71,Female,Unknown,No,2,23,4,5,Low,Critical,27,67,5,33125,Medium,88,Silent Patient Deterioration,23/02/26,2026,2,23,0,23.667,69,32,1
+P033,Maria Harrison,44,Male,Hypertension,No,3,11,8,0,High,Critical,55,91,3,22001,High,61,Hospital Resource Overload,15/02/26,2026,2,15,0,11,41,19.333,1
+P034,James Moreno,62,Female,Heart Disease,No,5,19,9,3,Medium,Critical,56,84,5,49723,Medium,102,Silent Patient Deterioration,20/01/26,2026,1,20,0,10.333,57,28.667,1
+P035,William Collins,28,Male,Unknown,Yes,3,5,3,4,Low,Critical,30,90,3,34996,Medium,65,Normal,26/04/26,2026,4,26,0,7,25,12,1
+P036,Adam Harris,66,Female,Unknown,Yes,8,24,1,0,Low,Critical,32,55,4,10307,Medium,106,Silent Patient Deterioration,07/03/26,2026,3,7,0,7.333,58,32.667,1
+P037,Austin Torres,34,Female,Heart Disease,Yes,5,25,10,4,Medium,Critical,45,42,1,11181,Medium,136,Silent Patient Deterioration,12/03/26,2026,3,12,0,5.667,29,21.333,1
+P038,Michael Butler,72,Male,Unknown,No,0,17,10,5,Low,Moderate,15,52,3,31092,High,84,Silent Patient Deterioration,21/12/25,2025,12,21,0,72,72,29.667,0
+P039,Travis Rice,88,Male,Heart Disease,Yes,1,25,10,4,Low,Critical,28,50,3,19734,High,116,Silent Patient Deterioration,23/04/26,2026,4,23,0,44,87,38,1
+P040,Kyle Rojas,73,Female,Hypertension,Yes,4,19,3,2,High,Critical,33,98,4,42706,Low,90,Silent Patient Deterioration,16/02/26,2026,2,16,0,14.6,69,32,1
+P041,Joshua Jones,35,Male,Diabetes,Yes,0,5,9,4,Low,Stable,32,77,5,9804,Medium,68,Normal,27/11/25,2025,11,27,0,35,35,13.333,0
+P042,Bradley Kelly,84,Female,Asthma,Yes,2,12,6,1,Medium,Stable,38,40,4,41806,High,71,Silent Patient Deterioration,17/03/26,2026,3,17,0,28,82,32.667,0
+P043,Timothy Hart,73,Male,Heart Disease,Yes,4,10,8,0,Low,Critical,45,91,3,31508,Medium,79,Silent Patient Deterioration,15/03/26,2026,3,15,0,14.6,69,29,1
+P044,David Decker,24,Male,Heart Disease,No,4,7,10,1,High,Stable,12,94,1,8352,Low,68,Recovery Degradation Pattern,18/12/25,2025,12,18,0,4.8,20,11.667,0
+P045,Mary Parker,44,Male,Hypertension,No,0,8,3,0,Low,Moderate,34,42,3,36867,Medium,25,Normal,24/02/26,2026,2,24,0,44,44,17.333,0
+P046,Victoria Roberts,62,Male,Hypertension,No,1,4,1,2,High,Moderate,27,95,4,33253,High,24,Hospital Resource Overload,26/03/26,2026,3,26,0,31,61,22.333,0
+P047,Stacy Hart,79,Female,Heart Disease,Yes,7,23,2,1,Low,Moderate,59,77,3,41306,High,106,Silent Patient Deterioration,02/02/26,2026,2,2,0,9.875,72,36.333,0
+P048,Erin Cardenas,26,Female,Diabetes,No,2,18,4,2,High,Stable,36,53,3,34803,High,66,Normal,17/12/25,2025,12,17,0,8.667,24,15.333,0
+P049,David Scott,50,Male,Unknown,Yes,6,7,7,2,Medium,Critical,35,79,1,44967,Medium,88,Silent Patient Deterioration,14/03/26,2026,3,14,0,7.143,44,21,1
+P050,Jesse Thomas,59,Female,Diabetes,Yes,2,11,3,2,High,Moderate,5,50,1,36455,Low,64,Normal,10/01/26,2026,1,10,0,19.667,57,24,0
+P051,Angela Wilson,65,Female,Unknown,No,1,23,7,3,Low,Moderate,33,45,0,42451,Low,84,Silent Patient Deterioration,27/03/26,2026,3,27,0,32.5,64,29.667,0
+P052,Heather Powell,73,Male,Unknown,No,2,4,3,0,High,Stable,46,65,4,48315,High,27,Normal,24/01/26,2026,1,24,0,24.333,71,26.333,0
+P053,Kyle Mitchell,53,Male,Asthma,Yes,2,6,6,4,Low,Moderate,35,74,5,23858,High,71,Silent Patient Deterioration,15/04/26,2026,4,15,0,17.667,51,20.333,0
+P054,Terry Patterson,89,Female,Heart Disease,Yes,8,8,1,2,High,Stable,30,88,1,5654,Medium,82,Silent Patient Deterioration,24/04/26,2026,4,24,0,9.889,81,35,0
+P055,Joel Ray,53,Male,Heart Disease,Yes,0,13,1,3,High,Stable,56,79,5,10889,Medium,56,Hospital Resource Overload,28/03/26,2026,3,28,0,53,53,22,0
+P056,Tammy Hernandez,56,Male,Unknown,Yes,4,15,3,0,High,Critical,35,91,1,44037,High,74,Silent Patient Deterioration,19/01/26,2026,1,19,0,11.2,52,25,1
+P057,Hayley Fry,27,Female,Unknown,No,5,15,5,0,High,Stable,31,44,2,12128,High,70,Recovery Degradation Pattern,12/03/26,2026,3,12,0,4.5,22,15.667,0
+P058,Ethan Le,30,Female,Hypertension,Yes,6,8,9,5,High,Critical,33,49,4,26783,High,108,Silent Patient Deterioration,24/01/26,2026,1,24,0,4.286,24,14.667,1
+P059,Sherri Moreno,41,Male,Asthma,No,7,15,10,3,High,Moderate,10,52,5,8452,Medium,107,Silent Patient Deterioration,13/03/26,2026,3,13,0,5.125,34,21,0
+P060,Jennifer Reilly,89,Male,Diabetes,Yes,1,10,8,2,Low,Moderate,58,43,4,46966,Low,72,Silent Patient Deterioration,20/04/26,2026,4,20,0,44.5,88,33.333,0
+P061,Thomas Campbell,43,Female,Heart Disease,Yes,8,22,9,2,High,Moderate,13,92,5,11630,Medium,134,Silent Patient Deterioration,10/04/26,2026,4,10,0,4.778,35,24.333,0
+P062,Julie White,69,Male,Diabetes,Yes,8,24,1,3,Low,Stable,18,66,2,35857,Medium,118,Silent Patient Deterioration,10/12/25,2025,12,10,0,7.667,61,33.667,0
+P063,Jessica Brown,29,Male,Asthma,Yes,4,12,4,2,Medium,Moderate,44,98,5,18895,High,79,Silent Patient Deterioration,05/12/25,2025,12,5,0,5.8,25,15,0
+P064,Jeffrey Watson,52,Male,Asthma,Yes,2,18,5,2,Medium,Moderate,34,70,3,17550,Low,84,Silent Patient Deterioration,04/03/26,2026,3,4,0,17.333,50,24,0
+P065,Ashley Allen,25,Male,Hypertension,No,7,13,3,2,Medium,Stable,24,49,4,36276,Low,78,Silent Patient Deterioration,04/02/26,2026,2,4,0,3.125,18,15,0
+P066,Sarah Stokes,78,Female,Heart Disease,Yes,8,16,1,0,High,Stable,36,80,3,20016,Low,90,Silent Patient Deterioration,21/01/26,2026,1,21,0,8.667,70,34,0
+P067,Donna Stewart,21,Male,Heart Disease,No,1,19,1,5,High,Stable,29,88,5,40477,High,66,Normal,26/01/26,2026,1,26,0,10.5,20,13.667,0
+P068,Stephen Sanders,89,Female,Hypertension,No,5,15,4,4,Medium,Stable,7,86,0,15129,High,83,Silent Patient Deterioration,28/12/25,2025,12,28,0,14.833,84,36.333,0
+P069,Elizabeth Wagner,74,Female,Heart Disease,Yes,6,10,9,0,Medium,Stable,40,54,1,20766,Medium,92,Silent Patient Deterioration,16/12/25,2025,12,16,0,10.571,68,30,0
+P070,James Walker,69,Female,Asthma,Yes,7,3,4,1,Medium,Moderate,28,45,2,43826,Medium,72,Silent Patient Deterioration,15/01/26,2026,1,15,0,8.625,62,26.333,0
+P071,Eric Reed,42,Male,Heart Disease,No,3,8,10,2,Low,Critical,30,60,3,33817,High,69,Normal,08/02/26,2026,2,8,0,10.5,39,17.667,1
+P072,Michael Shaw,41,Female,Heart Disease,Yes,7,23,6,0,High,Moderate,37,41,3,3114,Low,114,Silent Patient Deterioration,30/11/25,2025,11,30,0,5.125,34,23.667,0
+P073,Chelsey Martinez,89,Female,Hypertension,No,3,19,5,1,Medium,Critical,35,73,3,32341,Medium,72,Silent Patient Deterioration,20/01/26,2026,1,20,0,22.25,86,37,1
+P074,Jennifer Olsen,82,Female,Hypertension,No,4,3,5,4,Low,Stable,7,83,0,44898,High,57,Recovery Degradation Pattern,01/02/26,2026,2,1,0,16.4,78,29.667,0
+P075,Christopher Roberson,82,Female,Hypertension,Yes,6,23,2,3,Low,Moderate,49,68,3,43995,Low,109,Silent Patient Deterioration,31/01/26,2026,1,31,0,11.714,76,37,0
+P076,Kenneth Flores,51,Male,Unknown,No,6,25,6,0,High,Critical,54,73,0,4133,Medium,98,Silent Patient Deterioration,24/02/26,2026,2,24,0,7.286,45,27.333,1
+P077,Mark Hutchinson,32,Male,Asthma,No,4,2,3,5,High,Stable,39,81,0,31991,High,53,Recovery Degradation Pattern,13/05/26,2026,5,13,0,6.4,28,12.667,0
+P078,David Torres,50,Male,Heart Disease,Yes,6,7,3,0,Low,Stable,43,87,0,18341,Low,68,Recovery Degradation Pattern,19/01/26,2026,1,19,0,7.143,44,21,0
+P079,Jordan Miles,20,Female,Diabetes,Yes,8,11,9,1,Low,Critical,49,76,4,34401,High,108,Silent Patient Deterioration,05/03/26,2026,3,5,0,2.222,12,13,1
+P080,Wendy Stone,90,Female,Asthma,Yes,8,1,7,2,High,Moderate,53,96,4,37475,Medium,86,Silent Patient Deterioration,07/05/26,2026,5,7,0,10,82,33,0
+P081,Amanda Flores,63,Male,Diabetes,No,2,9,10,2,Low,Stable,31,50,5,26511,High,66,Normal,01/03/26,2026,3,1,0,21,61,24.667,0
+P082,Katherine Herrera,88,Male,Asthma,No,4,21,10,0,Medium,Stable,52,74,5,23882,High,92,Silent Patient Deterioration,04/12/25,2025,12,4,0,17.6,84,37.667,0
+P083,Nicole Beck,76,Male,Hypertension,Yes,6,2,1,5,Low,Stable,22,84,0,33839,High,72,Silent Patient Deterioration,10/03/26,2026,3,10,0,10.857,70,28,0
+P084,Heather Miranda,50,Female,Unknown,No,4,21,10,2,High,Stable,48,71,5,19125,Low,100,Silent Patient Deterioration,04/01/26,2026,1,4,0,10,46,25,0
+P085,Sean Casey,20,Male,Unknown,Yes,4,11,5,1,High,Critical,60,61,5,19322,Medium,76,Silent Patient Deterioration,01/05/26,2026,5,1,0,4,16,11.667,1
+P086,Amy Davis,62,Male,Asthma,No,0,18,7,0,Low,Moderate,11,83,4,26361,Low,57,Normal,24/05/26,2026,5,24,0,62,62,26.667,0
+P087,Samuel Bennett,34,Male,Unknown,No,8,19,2,0,High,Critical,37,57,0,39871,High,84,Silent Patient Deterioration,26/03/26,2026,3,26,0,3.778,26,20.333,1
+P088,Amy Scott,62,Male,Unknown,Yes,5,2,10,1,Medium,Critical,10,50,0,8667,High,78,Silent Patient Deterioration,11/02/26,2026,2,11,0,10.333,57,23,1
+P089,Tracy Pace,76,Female,Asthma,No,4,23,5,5,Low,Moderate,9,62,3,26110,Medium,101,Silent Patient Deterioration,09/05/26,2026,5,9,0,15.2,72,34.333,0
+P090,Sandra Barker,35,Female,Hypertension,Yes,4,4,7,4,High,Critical,6,64,1,11830,Medium,80,Silent Patient Deterioration,06/03/26,2026,3,6,0,7,31,14.333,1
+P091,Eric Reynolds,78,Male,Hypertension,Yes,8,11,3,1,High,Critical,38,79,2,23813,Low,90,Silent Patient Deterioration,21/05/26,2026,5,21,0,8.667,70,32.333,1
+P092,Jennifer Hernandez,86,Female,Heart Disease,Yes,4,5,2,0,Low,Stable,21,87,0,43012,Medium,51,Recovery Degradation Pattern,15/02/26,2026,2,15,0,17.2,82,31.667,0
+P093,Christopher Moran,76,Female,Hypertension,No,2,17,1,0,Medium,Critical,9,91,0,31943,Low,47,Hospital Resource Overload,04/04/26,2026,4,4,0,25.333,74,31.667,1
+P094,Laura Mills,21,Male,Hypertension,No,4,2,7,3,High,Stable,42,68,0,33875,Low,57,Recovery Degradation Pattern,21/12/25,2025,12,21,0,4.2,17,9,0
+P095,Danielle Brown,67,Male,Asthma,Yes,8,17,3,0,High,Moderate,16,85,2,3478,High,98,Silent Patient Deterioration,24/12/25,2025,12,24,0,7.444,59,30.667,0
+P096,Donald Curtis,24,Female,Hypertension,No,4,25,3,3,High,Critical,60,43,4,40848,Low,91,Silent Patient Deterioration,12/12/25,2025,12,12,0,4.8,20,17.667,1
+P097,Jeanette Hansen,78,Female,Heart Disease,Yes,6,4,5,2,High,Moderate,45,44,4,17567,High,76,Silent Patient Deterioration,09/03/26,2026,3,9,0,11.143,72,29.333,0
+P098,Austin Duarte,72,Female,Asthma,Yes,6,22,2,4,High,Stable,38,85,3,39173,Medium,111,Silent Patient Deterioration,10/03/26,2026,3,10,0,10.286,66,33.333,0
+P099,Brian Williams,42,Male,Unknown,Yes,1,5,7,1,Low,Moderate,14,70,1,14320,High,55,Normal,12/03/26,2026,3,12,0,21,41,16,0
+P100,Amy Thompson,33,Female,Unknown,No,0,10,3,4,High,Stable,43,81,3,8031,Low,45,Normal,09/04/26,2026,4,9,0,33,33,14.333,0
+P101,Bryan Morgan,88,Male,Unknown,Yes,1,1,10,4,High,Moderate,6,40,2,17861,Low,68,Normal,14/04/26,2026,4,14,0,44,87,30,0
+P102,Heather Turner,24,Female,Diabetes,Yes,7,15,4,0,Medium,Stable,59,46,2,7718,Low,92,Silent Patient Deterioration,12/01/26,2026,1,12,0,3,17,15.333,0
+P103,Ruben Mata,50,Female,Asthma,Yes,7,18,1,3,Medium,Stable,28,48,5,10904,Low,101,Silent Patient Deterioration,17/12/25,2025,12,17,0,6.25,43,25,0
+P104,Jill Nelson,83,Female,Unknown,No,2,10,1,5,High,Stable,6,59,0,35109,Low,53,Normal,24/03/26,2026,3,24,0,27.667,81,31.667,0
+P105,Patrick Singh,86,Male,Diabetes,Yes,7,3,2,5,Medium,Critical,47,92,2,3233,High,82,Silent Patient Deterioration,20/03/26,2026,3,20,0,10.75,79,32,1
+P106,Anthony Lester,49,Female,Diabetes,No,2,1,10,1,Medium,Critical,18,59,4,32868,High,46,Normal,22/01/26,2026,1,22,0,16.333,47,17.333,1
+P107,Joseph Thomas,40,Male,Hypertension,Yes,5,9,3,5,Medium,Stable,42,66,1,12339,High,87,Silent Patient Deterioration,26/04/26,2026,4,26,0,6.667,35,18,0
+P108,Lauren Parker,37,Male,Diabetes,No,1,5,1,5,Medium,Moderate,24,55,3,28566,Low,38,Normal,02/05/26,2026,5,2,0,18.5,36,14.333,0
+P109,April Gross,71,Male,Unknown,Yes,8,11,7,2,Medium,Critical,38,72,1,26157,Low,106,Silent Patient Deterioration,06/04/26,2026,4,6,0,7.889,63,30,1
+P110,Brian Caldwell,58,Female,Heart Disease,No,7,7,10,5,Low,Stable,18,64,1,27007,Medium,99,Silent Patient Deterioration,02/03/26,2026,3,2,0,7.25,51,24,0
+P111,Haley Carpenter,68,Male,Heart Disease,Yes,3,1,7,0,High,Critical,57,74,3,38074,Medium,53,Hospital Resource Overload,16/04/26,2026,4,16,0,17,65,24,1
+P112,Amy Travis,49,Female,Asthma,No,2,21,5,0,Medium,Stable,32,49,3,23167,Low,67,Normal,18/12/25,2025,12,18,0,16.333,47,24,0
+P113,Holly Andersen,78,Male,Hypertension,Yes,8,21,9,1,High,Moderate,6,66,0,6712,Medium,128,Silent Patient Deterioration,13/12/25,2025,12,13,0,8.667,70,35.667,0
+P114,Juan Doyle,27,Male,Asthma,Yes,6,18,5,1,Low,Critical,32,75,4,38611,Medium,100,Silent Patient Deterioration,25/01/26,2026,1,25,0,3.857,21,17,1
+P115,Christopher Smith,73,Female,Hypertension,No,6,19,6,4,Low,Stable,11,41,1,12151,Low,102,Silent Patient Deterioration,30/01/26,2026,1,30,0,10.429,67,32.667,0
+P116,Jessica Carrillo,43,Male,Unknown,Yes,8,19,10,5,High,Moderate,44,75,5,48937,High,143,Silent Patient Deterioration,28/11/25,2025,11,28,0,4.778,35,23.333,0
+P117,Carlos Roth,75,Female,Diabetes,Yes,6,13,9,4,Medium,Stable,40,96,5,44532,Medium,114,Silent Patient Deterioration,12/01/26,2026,1,12,0,10.714,69,31.333,0
+P118,Melinda Norman,29,Male,Hypertension,Yes,2,25,7,0,High,Critical,7,64,4,42483,High,96,Silent Patient Deterioration,25/01/26,2026,1,25,0,9.667,27,18.667,1
+P119,Elizabeth Flores,54,Male,Hypertension,Yes,7,3,2,5,Low,Stable,59,82,2,45287,Medium,82,Silent Patient Deterioration,15/05/26,2026,5,15,0,6.75,47,21.333,0
+P120,Rachael Brooks,57,Female,Diabetes,Yes,4,7,8,3,Medium,Critical,38,70,4,42927,Medium,85,Silent Patient Deterioration,07/05/26,2026,5,7,0,11.4,53,22.667,1
+P121,Jacqueline Gonzales,38,Male,Hypertension,Yes,4,10,10,2,High,Moderate,44,46,1,24329,High,93,Silent Patient Deterioration,27/12/25,2025,12,27,0,7.6,34,17.333,0
+P122,Makayla Pena,73,Male,Asthma,No,6,4,10,1,Medium,Critical,13,47,4,2463,Medium,72,Silent Patient Deterioration,22/02/26,2026,2,22,0,10.429,67,27.667,1
+P123,Austin Webb,21,Male,Heart Disease,No,4,24,3,2,Low,Critical,51,40,4,20649,Medium,85,Silent Patient Deterioration,12/01/26,2026,1,12,0,4.2,17,16.333,1
+P124,Ronald Shaffer,85,Female,Heart Disease,Yes,3,5,7,0,High,Stable,7,51,5,7263,Low,61,Normal,14/05/26,2026,5,14,0,21.25,82,31,0
+P125,Scott Simpson,25,Female,Hypertension,Yes,1,9,10,0,High,Critical,25,54,2,32236,High,68,Normal,24/03/26,2026,3,24,0,12.5,24,11.667,1
+P126,Randy Smith,72,Female,Hypertension,Yes,7,1,10,2,High,Moderate,43,50,5,45425,Medium,90,Silent Patient Deterioration,01/03/26,2026,3,1,0,9,65,26.667,0
+P127,Daniel Clark,21,Female,Hypertension,Yes,6,17,8,3,High,Critical,49,80,1,8665,Medium,115,Silent Patient Deterioration,16/12/25,2025,12,16,0,3,15,14.667,1
+P128,Kimberly Carroll,73,Male,Diabetes,Yes,1,16,10,3,Medium,Moderate,47,44,1,14942,Low,94,Silent Patient Deterioration,22/03/26,2026,3,22,0,36.5,72,30,0
+P129,Jacob Parker,29,Male,Unknown,Yes,5,22,5,2,Low,Critical,29,77,5,38942,High,107,Silent Patient Deterioration,04/03/26,2026,3,4,0,4.833,24,18.667,1
+P130,Michael Brown,77,Female,Asthma,No,5,24,10,4,Low,Moderate,29,93,5,16022,Low,119,Silent Patient Deterioration,23/01/26,2026,1,23,0,12.833,72,35.333,0
+P131,Karen Thompson,66,Female,Diabetes,No,2,24,7,3,Medium,Moderate,42,96,0,8091,High,91,Silent Patient Deterioration,14/01/26,2026,1,14,0,22,64,30.667,0
+P132,Latoya Anderson,30,Male,Hypertension,No,4,16,10,1,Low,Moderate,37,67,1,30595,Medium,86,Silent Patient Deterioration,25/01/26,2026,1,25,0,6,26,16.667,0
+P133,Adrian Bates,83,Male,Unknown,No,4,13,5,1,High,Moderate,13,93,2,9787,Medium,65,Recovery Degradation Pattern,10/05/26,2026,5,10,0,16.6,79,33.333,0
+P134,Dr. Dylan Newton,39,Male,Unknown,No,1,12,10,0,High,Critical,34,41,0,44404,High,59,Normal,22/03/26,2026,3,22,0,19.5,38,17.333,1
+P135,Sara Allen,25,Male,Asthma,No,5,18,9,4,Low,Stable,48,68,4,47633,Medium,104,Silent Patient Deterioration,27/01/26,2026,1,27,0,4.167,20,16,0
+P136,Bernard Schmidt,28,Male,Unknown,No,5,24,8,3,High,Stable,16,68,1,3543,Medium,109,Silent Patient Deterioration,20/12/25,2025,12,20,0,4.667,23,19,0
+P137,Christopher Sullivan,76,Male,Asthma,Yes,4,17,2,4,Low,Critical,21,49,5,6181,Medium,91,Silent Patient Deterioration,26/12/25,2025,12,26,0,15.2,72,32.333,1
+P138,Jasmine Grimes,29,Male,Unknown,No,0,6,7,1,Medium,Critical,6,56,3,9342,Medium,37,Normal,02/05/26,2026,5,2,0,29,29,11.667,1
+P139,Eduardo Lawson,36,Male,Diabetes,No,3,5,7,4,Medium,Moderate,24,85,1,43233,Low,62,Normal,13/01/26,2026,1,13,0,9,33,14.667,0
+P140,Michelle Patton,63,Female,Asthma,Yes,8,14,8,1,Low,Critical,48,44,2,32527,High,111,Silent Patient Deterioration,20/03/26,2026,3,20,0,7,55,28.333,1
+P141,Sabrina Richmond,38,Male,Heart Disease,Yes,0,15,9,4,Low,Stable,23,73,0,14491,High,88,Silent Patient Deterioration,23/05/26,2026,5,23,0,38,38,17.667,0
+P142,Tyler Carroll,65,Male,Unknown,No,0,5,2,5,Low,Critical,31,75,0,13256,High,36,Normal,18/05/26,2026,5,18,0,65,65,23.333,1
+P143,Mark Sloan,36,Male,Unknown,No,1,15,7,1,Low,Critical,5,66,4,27488,Medium,60,Normal,25/05/26,2026,5,25,0,18,35,17.333,1
+P144,Gregory Adams,86,Male,Unknown,No,4,8,6,5,Low,Moderate,16,90,5,40503,High,74,Silent Patient Deterioration,08/01/26,2026,1,8,0,17.2,82,32.667,0
+P145,Daniel Maynard,87,Male,Hypertension,Yes,5,5,8,5,High,Critical,49,69,1,20305,Medium,94,Silent Patient Deterioration,16/03/26,2026,3,16,0,14.5,82,32.333,1
+P146,Joshua Nguyen,24,Female,Asthma,Yes,6,12,3,2,High,Stable,15,50,1,47741,Medium,86,Silent Patient Deterioration,10/04/26,2026,4,10,0,3.429,18,14,0
+P147,Mia Mcfarland,65,Male,Diabetes,No,4,23,2,4,Medium,Stable,33,94,4,24290,High,88,Silent Patient Deterioration,02/02/26,2026,2,2,0,13,61,30.667,0
+P148,William Dominguez,29,Male,Asthma,Yes,8,4,3,0,Medium,Stable,42,48,5,47346,Low,72,Silent Patient Deterioration,19/12/25,2025,12,19,0,3.222,21,13.667,0
+P149,Matthew Gardner,73,Female,Hypertension,Yes,4,20,8,3,Low,Moderate,46,80,3,8123,Low,111,Silent Patient Deterioration,14/05/26,2026,5,14,0,14.6,69,32.333,0
+P150,Stephen Ayala,67,Male,Unknown,Yes,4,8,5,3,Medium,Moderate,49,96,4,32377,Medium,78,Silent Patient Deterioration,26/05/26,2026,5,26,0,13.4,63,26.333,0
+P151,Tamara Johnson,48,Female,Unknown,No,3,20,4,5,Medium,Critical,17,51,3,37757,Medium,87,Silent Patient Deterioration,19/12/25,2025,12,19,0,12,45,23.667,1
+P152,Deanna Owens,30,Male,Heart Disease,Yes,6,3,1,1,High,Stable,55,85,3,19478,Medium,58,Recovery Degradation Pattern,04/04/26,2026,4,4,0,4.286,24,13,0
+P153,Linda Wall,81,Female,Heart Disease,No,0,2,1,3,Medium,Moderate,41,67,5,41463,High,19,Normal,17/12/25,2025,12,17,0,81,81,27.667,0
+P154,Dr. Robert Frost PhD,88,Male,Heart Disease,No,4,9,10,2,Low,Stable,13,94,1,45849,High,76,Silent Patient Deterioration,20/04/26,2026,4,20,0,17.6,84,33.667,0
+P155,Ronald Collins,71,Male,Heart Disease,No,2,16,8,1,High,Critical,55,87,3,21379,Medium,70,Hospital Resource Overload,27/03/26,2026,3,27,0,23.667,69,29.667,1
+P156,Sandra Morrison,75,Male,Heart Disease,Yes,1,17,9,2,Low,Critical,7,77,3,13502,Low,89,Silent Patient Deterioration,30/01/26,2026,1,30,0,37.5,74,31,1
+P157,Emily Velez,73,Female,Asthma,No,4,4,6,5,High,Stable,50,78,4,47371,High,66,Recovery Degradation Pattern,07/04/26,2026,4,7,0,14.6,69,27,0
+P158,Jennifer Hill,65,Female,Heart Disease,Yes,6,9,6,3,Medium,Stable,20,72,4,7224,Medium,93,Silent Patient Deterioration,04/03/26,2026,3,4,0,9.286,59,26.667,0
+P159,Sandra Phillips,30,Male,Heart Disease,Yes,2,19,4,4,Low,Stable,38,42,2,45459,Medium,91,Silent Patient Deterioration,17/02/26,2026,2,17,0,10,28,17,0
+P160,Andrew Allen,85,Male,Asthma,Yes,5,23,6,0,Low,Critical,12,99,1,42922,High,104,Silent Patient Deterioration,27/11/25,2025,11,27,0,14.167,80,37.667,1
+P161,Brooke Stevenson,82,Male,Diabetes,Yes,0,4,8,3,Medium,Critical,48,74,0,28850,High,59,Normal,03/05/26,2026,5,3,0,82,82,28.667,1
+P162,Joseph Meadows,58,Female,Heart Disease,Yes,4,24,2,2,High,Moderate,6,50,2,47823,High,97,Silent Patient Deterioration,24/12/25,2025,12,24,0,11.6,54,28.667,0
+P163,Amber Smith,61,Male,Asthma,No,3,4,2,2,Medium,Stable,7,97,4,49548,Low,37,Hospital Resource Overload,12/05/26,2026,5,12,0,15.25,58,22.667,0
+P164,Christian Rodriguez,85,Female,Diabetes,No,6,13,1,5,Low,Stable,54,84,0,22851,High,79,Silent Patient Deterioration,06/03/26,2026,3,6,0,12.143,79,34.667,0
+P165,Madison Walker,85,Male,Asthma,Yes,1,17,8,1,Medium,Critical,44,63,3,48841,High,82,Silent Patient Deterioration,10/02/26,2026,2,10,0,42.5,84,34.333,1
+P166,Jean Dudley,71,Female,Unknown,Yes,7,16,2,1,Low,Stable,51,82,5,26977,High,92,Silent Patient Deterioration,22/03/26,2026,3,22,0,8.875,64,31.333,0
+P167,Christie Martinez,68,Female,Heart Disease,Yes,7,8,9,4,Medium,Stable,57,41,4,33644,Medium,109,Silent Patient Deterioration,25/12/25,2025,12,25,0,8.5,61,27.667,0
+P168,Andrew Martin,46,Male,Unknown,No,3,23,7,4,Low,Moderate,32,61,1,48209,Medium,98,Silent Patient Deterioration,11/04/26,2026,4,11,0,11.5,43,24,0
+P169,Ruben Williams,36,Male,Diabetes,Yes,1,9,5,1,Medium,Stable,44,61,4,2722,Low,57,Normal,21/04/26,2026,4,21,0,18,35,15.333,0
+P170,Megan Cuevas,88,Male,Asthma,Yes,7,5,3,4,High,Moderate,25,58,2,16218,High,85,Silent Patient Deterioration,12/03/26,2026,3,12,0,11,81,33.333,0
+P171,Samuel Jennings Jr.,45,Male,Asthma,No,0,13,9,5,Medium,Critical,12,92,5,4545,Medium,73,Silent Patient Deterioration,07/02/26,2026,2,7,0,45,45,19.333,1
+P172,Christopher Bryant,67,Male,Unknown,No,1,23,7,2,Low,Critical,9,84,1,10888,High,80,Silent Patient Deterioration,20/12/25,2025,12,20,0,33.5,66,30.333,1
+P173,Jennifer Castillo,76,Female,Hypertension,Yes,1,24,5,4,Medium,Stable,53,41,0,28799,Medium,99,Silent Patient Deterioration,14/04/26,2026,4,14,0,38,75,33.667,0
+P174,Scott Reed,42,Female,Heart Disease,No,2,14,9,4,High,Stable,34,81,2,36060,High,81,Silent Patient Deterioration,06/04/26,2026,4,6,0,14,40,19.333,0
+P175,Latoya Vargas,87,Female,Asthma,Yes,2,2,8,3,Low,Critical,20,67,0,27981,Low,65,Normal,12/12/25,2025,12,12,0,29,85,30.333,1
+P176,Rachel Vincent,63,Female,Asthma,Yes,2,18,10,5,High,Critical,52,49,3,43006,High,111,Silent Patient Deterioration,17/01/26,2026,1,17,0,21,61,27.667,1
+P177,Leslie Hoffman,73,Male,Heart Disease,Yes,6,19,3,3,Low,Stable,16,40,0,9252,Low,104,Silent Patient Deterioration,18/02/26,2026,2,18,0,10.429,67,32.667,0
+P178,Stephanie Schneider,40,Female,Hypertension,Yes,2,23,5,0,High,Stable,26,50,3,27256,Medium,86,Silent Patient Deterioration,21/12/25,2025,12,21,0,13.333,38,21.667,0
+P179,Haley Lewis,69,Male,Hypertension,No,5,18,6,3,High,Critical,54,60,0,48939,Low,91,Silent Patient Deterioration,19/04/26,2026,4,19,0,11.5,64,30.667,1
+P180,Brandi Howard,58,Male,Asthma,No,2,19,7,2,Medium,Stable,29,89,5,11000,Low,77,Silent Patient Deterioration,15/02/26,2026,2,15,0,19.333,56,26.333,0
+P181,Joshua Brown,69,Female,Unknown,No,1,10,8,0,Medium,Moderate,58,55,4,19935,Medium,49,Hospital Resource Overload,15/05/26,2026,5,15,0,34.5,68,26.667,0
+P182,Sandy Daniel,68,Female,Diabetes,No,3,1,7,5,High,Stable,50,83,0,25831,Medium,58,Normal,23/02/26,2026,2,23,0,17,65,24,0
+P183,Cynthia Simpson,84,Female,Hypertension,Yes,8,16,1,5,High,Stable,56,47,1,47859,Low,110,Silent Patient Deterioration,14/01/26,2026,1,14,0,9.333,76,36,0
+P184,Kevin Lewis,51,Female,Hypertension,Yes,2,2,7,2,High,Critical,12,87,3,30321,Low,58,Normal,22/05/26,2026,5,22,0,17,49,18.333,1
+P185,Kelsey Stafford,84,Female,Hypertension,No,1,9,9,2,Medium,Critical,22,44,1,34152,Medium,58,Normal,08/05/26,2026,5,8,0,42,83,31.333,1
+P186,Dawn Hall,62,Female,Unknown,Yes,8,12,1,1,High,Critical,17,57,0,33893,Medium,86,Silent Patient Deterioration,04/04/26,2026,4,4,0,6.889,54,27.333,1
+P187,Hannah Hill,40,Female,Diabetes,Yes,7,15,5,5,Medium,Stable,54,99,5,23359,Medium,115,Silent Patient Deterioration,14/03/26,2026,3,14,0,5,33,20.667,0
+P188,Joshua Price,65,Female,Hypertension,Yes,5,10,6,4,High,Critical,8,53,0,28617,Medium,94,Silent Patient Deterioration,05/02/26,2026,2,5,0,10.833,60,26.667,1
+P189,Nancy Wood,32,Female,Diabetes,No,4,13,9,5,High,Critical,20,64,2,48067,Low,93,Silent Patient Deterioration,05/04/26,2026,4,5,0,6.4,28,16.333,1
+P190,Dr. William Roberts,29,Male,Heart Disease,No,2,14,1,4,Medium,Moderate,27,44,4,26960,Low,57,Normal,08/03/26,2026,3,8,0,9.667,27,15,0
+P191,Robert Jordan,84,Female,Heart Disease,No,0,25,10,2,Medium,Moderate,18,50,0,48074,Medium,88,Silent Patient Deterioration,05/01/26,2026,1,5,0,84,84,36.333,0
+P192,Elizabeth Aguilar,25,Male,Asthma,No,5,8,9,1,Low,Moderate,41,91,3,44986,High,72,Silent Patient Deterioration,06/12/25,2025,12,6,0,4.167,20,12.667,0
+P193,Daniel Flores,32,Male,Diabetes,No,6,8,6,2,Low,Stable,42,46,1,12872,High,72,Silent Patient Deterioration,23/05/26,2026,5,23,0,4.571,26,15.333,0
+P194,Ana Wells,37,Female,Heart Disease,Yes,3,14,7,3,Low,Critical,17,51,0,13960,Low,91,Silent Patient Deterioration,12/02/26,2026,2,12,0,9.25,34,18,1
+P195,Caleb Young,62,Male,Diabetes,Yes,6,13,5,0,Low,Critical,41,76,4,41358,Low,86,Silent Patient Deterioration,23/03/26,2026,3,23,0,8.857,56,27,1
+P196,Kayla Peterson,46,Male,Asthma,No,1,24,8,5,Medium,Stable,44,67,5,28238,Low,97,Silent Patient Deterioration,20/03/26,2026,3,20,0,23,45,23.667,0
+P197,Karen Johnson,63,Female,Unknown,Yes,2,3,4,0,Low,Critical,45,73,0,49257,Low,43,Normal,20/01/26,2026,1,20,0,21,61,22.667,1
+P198,Samuel David,69,Male,Asthma,No,1,2,6,4,Low,Moderate,49,76,4,49511,Low,43,Normal,12/12/25,2025,12,12,0,34.5,68,24,0
+P199,Paula Allen,63,Female,Diabetes,No,3,12,2,2,High,Moderate,56,40,3,23025,High,53,Hospital Resource Overload,01/02/26,2026,2,1,0,15.75,60,26,0
+P200,Jeff Williams,69,Male,Diabetes,Yes,3,19,9,3,Low,Stable,20,84,2,10996,Low,107,Silent Patient Deterioration,14/05/26,2026,5,14,0,17.25,66,30.333,0
+P201,Sarah Ruiz,67,Female,Heart Disease,Yes,5,22,3,3,Medium,Moderate,41,47,1,19503,Low,105,Silent Patient Deterioration,30/03/26,2026,3,30,0,11.167,62,31.333,0
+P202,Bridget King,86,Female,Hypertension,No,4,10,4,5,High,Moderate,53,73,2,37951,High,72,Silent Patient Deterioration,23/04/26,2026,4,23,0,17.2,82,33.333,0
+P203,Trevor Bates,67,Female,Diabetes,No,6,6,7,1,High,Moderate,21,42,1,43018,Low,67,Recovery Degradation Pattern,22/05/26,2026,5,22,0,9.571,61,26.333,0
+P204,Carl Hardy,45,Female,Hypertension,Yes,3,22,1,3,High,Moderate,44,82,3,25505,Low,89,Silent Patient Deterioration,01/01/26,2026,1,1,0,11.25,42,23.333,0
+P205,Arthur Jones,86,Male,Asthma,No,8,6,10,0,Medium,Moderate,54,98,5,36437,Medium,82,Silent Patient Deterioration,15/02/26,2026,2,15,0,9.556,78,33.333,0
+P206,Joan Stout MD,32,Female,Unknown,Yes,6,6,3,1,Low,Moderate,50,42,2,3867,Low,70,Recovery Degradation Pattern,11/12/25,2025,12,11,0,4.571,26,14.667,0
+P207,Darrell Andrews,41,Male,Diabetes,Yes,1,1,8,3,High,Stable,27,86,3,49527,High,58,Normal,14/12/25,2025,12,14,0,20.5,40,14.333,0
+P208,Dr. Amy Williams,42,Female,Diabetes,No,6,3,5,0,Low,Critical,17,41,3,24116,High,51,Recovery Degradation Pattern,15/05/26,2026,5,15,0,6,36,17,1
+P209,Nicholas Sanders,30,Female,Heart Disease,No,1,23,9,5,High,Stable,16,67,2,20421,Medium,98,Silent Patient Deterioration,01/12/25,2025,12,1,0,15,29,18,0
+P210,Cameron Wall,74,Female,Hypertension,Yes,2,16,4,2,High,Stable,50,67,1,40852,Low,77,Silent Patient Deterioration,19/02/26,2026,2,19,0,24.667,72,30.667,0
+P211,Christopher Thomas,20,Female,Asthma,No,8,16,7,5,Low,Stable,49,42,3,39122,High,113,Silent Patient Deterioration,21/01/26,2026,1,21,0,2.222,12,14.667,0
+P212,Carla Terrell,21,Male,Diabetes,No,0,9,7,1,Medium,Critical,53,53,4,44469,Medium,43,Hospital Resource Overload,25/03/26,2026,3,25,0,21,21,10,1
+P213,Melissa Kemp,39,Male,Diabetes,No,7,4,6,0,Low,Moderate,58,99,2,17124,Medium,61,Recovery Degradation Pattern,18/02/26,2026,2,18,0,4.875,32,16.667,0
+P214,Patricia James,73,Male,Unknown,Yes,3,13,9,3,High,Moderate,30,45,4,16857,High,95,Silent Patient Deterioration,08/05/26,2026,5,8,0,18.25,70,29.667,0
+P215,Jeremy Golden,29,Female,Asthma,Yes,1,12,7,1,Low,Moderate,52,78,4,40725,High,69,Hospital Resource Overload,14/02/26,2026,2,14,0,14.5,28,14,0
+P216,Mary Holt,51,Male,Diabetes,Yes,3,9,10,0,Medium,Moderate,60,81,5,24419,Low,78,Silent Patient Deterioration,07/05/26,2026,5,7,0,12.75,48,21,0
+P217,Joseph Rodriguez,84,Male,Asthma,No,5,4,9,3,High,Critical,38,49,3,31339,Low,72,Silent Patient Deterioration,14/05/26,2026,5,14,0,14,79,31,1
+P218,Connor Whitehead,82,Male,Heart Disease,No,1,2,5,5,Low,Critical,22,72,3,44750,High,44,Normal,12/01/26,2026,1,12,0,41,81,28.333,1
+P219,Richard Guzman,20,Male,Heart Disease,Yes,2,20,7,5,Low,Stable,34,45,3,44294,Low,106,Silent Patient Deterioration,27/02/26,2026,2,27,0,6.667,18,14,0
+P220,Shelby Vega,22,Female,Hypertension,No,5,6,6,2,Medium,Moderate,39,64,1,23497,Medium,63,Recovery Degradation Pattern,08/03/26,2026,3,8,0,3.667,17,11,0
+P221,Oscar Lee,51,Male,Diabetes,No,2,1,1,3,Medium,Critical,8,64,4,8991,High,27,Normal,01/05/26,2026,5,1,0,17,49,18,1
+P222,Leslie Olsen,41,Female,Diabetes,Yes,5,17,4,4,Medium,Critical,24,45,2,25842,High,102,Silent Patient Deterioration,01/12/25,2025,12,1,0,6.833,36,21,1
+P223,David Berry,46,Male,Heart Disease,No,5,16,5,5,High,Critical,34,87,2,35357,High,92,Silent Patient Deterioration,29/12/25,2025,12,29,0,7.667,41,22.333,1
+P224,Amanda Ramos,74,Female,Asthma,No,5,19,8,4,High,Critical,9,89,0,46290,Medium,103,Silent Patient Deterioration,16/03/26,2026,3,16,0,12.333,69,32.667,1
+P225,Matthew Chase,65,Male,Unknown,No,6,19,8,0,Low,Moderate,29,88,1,3274,High,92,Silent Patient Deterioration,09/03/26,2026,3,9,0,9.286,59,30,0
+P226,Samantha Miller,42,Female,Unknown,Yes,5,14,6,4,Medium,Moderate,30,61,1,40587,Low,102,Silent Patient Deterioration,30/04/26,2026,4,30,0,7,37,20.333,0
+P227,Jeffrey Spencer,49,Female,Heart Disease,No,2,9,7,1,Low,Stable,51,67,1,6159,Medium,53,Hospital Resource Overload,18/12/25,2025,12,18,0,16.333,47,20,0
+P228,Jack Walker,68,Male,Unknown,No,0,4,2,4,Medium,Stable,29,87,0,43440,High,30,Normal,22/05/26,2026,5,22,0,68,68,24,0
+P229,Michael Davis,30,Male,Unknown,No,7,12,6,2,High,Critical,47,85,3,41875,High,85,Silent Patient Deterioration,01/03/26,2026,3,1,0,3.75,23,16.333,1
+P230,Michelle Flores,34,Female,Hypertension,No,3,6,6,5,Low,Moderate,34,45,0,25668,High,65,Normal,13/03/26,2026,3,13,0,8.5,31,14.333,0
+P231,Richard Hernandez,62,Male,Unknown,No,6,16,7,5,High,Critical,8,56,0,18196,High,103,Silent Patient Deterioration,15/02/26,2026,2,15,0,8.857,56,28,1
+P232,Daniel Walsh,27,Female,Asthma,No,3,7,9,1,Low,Critical,13,66,4,49443,Low,60,Normal,24/12/25,2025,12,24,0,6.75,24,12.333,1
+P233,Julie Andrews,74,Female,Heart Disease,Yes,7,4,4,4,Low,Critical,20,90,2,17146,High,86,Silent Patient Deterioration,28/01/26,2026,1,28,0,9.25,67,28.333,1
+P234,Michael Bass,42,Female,Heart Disease,Yes,5,25,1,5,Medium,Critical,12,65,2,14602,High,113,Silent Patient Deterioration,26/01/26,2026,1,26,0,7,37,24,1
+P235,Victoria Jones,78,Female,Hypertension,No,0,8,6,1,Low,Stable,38,40,2,8623,High,38,Normal,19/02/26,2026,2,19,0,78,78,28.667,0
+P236,Ashlee Mcmillan,73,Male,Diabetes,No,2,25,7,3,Medium,Critical,50,57,2,23373,Medium,93,Silent Patient Deterioration,01/01/26,2026,1,1,0,24.333,71,33.333,1
+P237,Vincent Matthews,73,Female,Diabetes,No,6,23,4,1,Low,Critical,20,84,2,36548,Low,92,Silent Patient Deterioration,24/03/26,2026,3,24,0,10.429,67,34,1
+P238,Brian Diaz,35,Male,Diabetes,Yes,2,13,3,2,High,Moderate,17,99,4,11314,Low,68,Hospital Resource Overload,01/04/26,2026,4,1,0,11.667,33,16.667,0
+P239,Greg Brown,37,Female,Asthma,Yes,6,25,1,1,Medium,Stable,60,71,0,24294,Medium,102,Silent Patient Deterioration,05/04/26,2026,4,5,0,5.286,31,22.667,0
+P240,Jonathan Burns,24,Female,Diabetes,No,0,5,7,5,Medium,Stable,60,79,2,2650,Low,51,Hospital Resource Overload,07/12/25,2025,12,7,0,24,24,9.667,0
+P241,Jeffery Mack,54,Male,Asthma,Yes,1,8,2,0,High,Moderate,11,43,1,3788,High,42,Normal,03/02/26,2026,2,3,0,27,53,21,0
+P242,Samuel Hunt,70,Female,Heart Disease,Yes,3,22,8,4,Medium,Stable,43,75,4,27549,High,114,Silent Patient Deterioration,07/03/26,2026,3,7,0,17.5,67,31.667,0
+P243,Mark Summers,60,Female,Hypertension,Yes,1,5,7,5,Low,Moderate,50,56,1,32323,Low,71,Silent Patient Deterioration,14/05/26,2026,5,14,0,30,59,22,0
+P244,Marcus Parker,72,Male,Diabetes,No,8,1,6,4,Medium,Stable,30,92,0,45630,Low,76,Silent Patient Deterioration,16/03/26,2026,3,16,0,8,64,27,0
+P245,Alejandro Moore,63,Male,Heart Disease,No,1,18,5,4,Medium,Stable,30,42,0,30650,Medium,72,Silent Patient Deterioration,08/02/26,2026,2,8,0,31.5,62,27.333,0
+P246,Michelle Patterson,45,Male,Asthma,No,0,5,1,2,Low,Moderate,54,74,3,16061,Low,21,Hospital Resource Overload,11/04/26,2026,4,11,0,45,45,16.667,0
+P247,Christopher Aguilar,90,Male,Asthma,No,0,24,3,0,High,Stable,40,56,3,31870,Low,57,Normal,09/03/26,2026,3,9,0,90,90,38,0
+P248,Alexandra Parker,31,Female,Hypertension,Yes,3,8,2,2,Medium,Moderate,26,74,0,22076,Medium,60,Normal,04/12/25,2025,12,4,0,7.75,28,14,0
+P249,Patrick Mitchell,76,Male,Unknown,Yes,1,15,5,2,High,Moderate,41,92,0,46766,Low,73,Silent Patient Deterioration,04/01/26,2026,1,4,0,38,75,30.667,0
+P250,Christopher Gallagher,77,Female,Heart Disease,Yes,6,19,4,3,Low,Moderate,57,75,5,40000,Low,107,Silent Patient Deterioration,15/03/26,2026,3,15,0,11,71,34,0
+P251,Thomas Tate,71,Female,Asthma,Yes,4,20,9,5,High,Moderate,7,80,3,12433,Low,122,Silent Patient Deterioration,23/12/25,2025,12,23,0,14.2,67,31.667,0
+P252,Diane Rhodes,35,Male,Unknown,Yes,5,10,5,5,Medium,Critical,53,95,5,21974,Medium,95,Silent Patient Deterioration,23/01/26,2026,1,23,0,5.833,30,16.667,1
+P253,Nancy Reese,30,Female,Unknown,Yes,8,2,3,3,High,Critical,53,71,0,42395,Medium,80,Silent Patient Deterioration,27/03/26,2026,3,27,0,3.333,22,13.333,1
+P254,Charles Ryan,47,Male,Hypertension,No,0,1,9,2,High,Moderate,18,78,4,24546,Medium,37,Normal,15/12/25,2025,12,15,0,47,47,16,0
+P255,Tracy Perkins,70,Male,Diabetes,Yes,1,16,6,3,High,Critical,10,48,5,47543,Medium,82,Silent Patient Deterioration,02/05/26,2026,5,2,0,35,69,29,1
+P256,Mr. Leon Bridges,85,Male,Hypertension,Yes,2,20,9,3,Low,Moderate,60,73,3,9995,Medium,104,Silent Patient Deterioration,21/02/26,2026,2,21,0,28.333,83,35.667,0
+P257,Leah Martin,48,Female,Asthma,No,3,15,7,2,High,Critical,20,96,3,48180,Medium,74,Silent Patient Deterioration,18/02/26,2026,2,18,0,12,45,22,1
+P258,Madison Rosario,63,Male,Heart Disease,Yes,7,1,4,2,Medium,Moderate,43,75,4,31957,Medium,72,Silent Patient Deterioration,03/01/26,2026,1,3,0,7.875,56,23.667,0
+P259,Candice Reeves,30,Male,Heart Disease,No,0,1,1,4,High,Critical,48,100,3,31142,High,21,Hospital Resource Overload,01/04/26,2026,4,1,0,30,30,10.333,1
+P260,John Best,65,Female,Asthma,No,0,14,1,3,Medium,Moderate,59,100,2,43587,Medium,43,Hospital Resource Overload,07/02/26,2026,2,7,0,65,65,26.333,0
+P261,Laura Pennington,86,Male,Unknown,Yes,1,12,1,4,Low,Stable,24,59,3,49043,Medium,63,Normal,29/01/26,2026,1,29,0,43,85,33,0
+P262,Lisa Morrison,23,Male,Asthma,Yes,4,24,6,4,High,Stable,18,64,4,11465,High,117,Silent Patient Deterioration,26/01/26,2026,1,26,0,4.6,19,17,0
+P263,Sarah Olson,64,Male,Unknown,Yes,2,21,10,5,Medium,Moderate,11,75,0,38230,High,117,Silent Patient Deterioration,05/04/26,2026,4,5,0,21.333,62,29,0
+P264,Leah Harris,79,Female,Unknown,Yes,4,23,2,0,Low,Moderate,32,44,0,35947,Low,87,Silent Patient Deterioration,23/01/26,2026,1,23,0,15.8,75,35.333,0
+P265,Hannah Lopez,80,Male,Heart Disease,Yes,3,17,3,3,High,Critical,16,80,1,19377,Medium,85,Silent Patient Deterioration,04/03/26,2026,3,4,0,20,77,33.333,1
+P266,Rachael Small,79,Female,Unknown,No,3,14,3,1,Low,Stable,37,100,2,26399,Low,56,Hospital Resource Overload,19/12/25,2025,12,19,0,19.75,76,32,0
+P267,April Armstrong,29,Male,Unknown,No,0,25,6,5,Medium,Critical,17,88,4,17681,High,88,Silent Patient Deterioration,02/12/25,2025,12,2,0,29,29,18,1
+P268,Ryan King,72,Female,Hypertension,No,5,6,9,4,Low,Critical,17,67,5,32662,High,80,Silent Patient Deterioration,31/03/26,2026,3,31,0,12,67,27.667,1
+P269,Sarah Wallace,49,Female,Heart Disease,Yes,1,4,2,2,High,Moderate,44,69,0,25171,Low,42,Normal,12/03/26,2026,3,12,0,24.5,48,18,0
+P270,Anna White,71,Male,Diabetes,No,5,25,4,5,Medium,Stable,28,51,3,18542,High,107,Silent Patient Deterioration,29/01/26,2026,1,29,0,11.833,66,33.667,0
+P271,Sandra Jones,67,Male,Asthma,Yes,7,11,6,3,Medium,Critical,42,52,4,24704,High,102,Silent Patient Deterioration,01/02/26,2026,2,1,0,8.375,60,28.333,1
+P272,Christopher Phillips,78,Female,Asthma,Yes,2,11,9,2,Low,Critical,22,70,2,21162,Medium,82,Silent Patient Deterioration,27/02/26,2026,2,27,0,26,76,30.333,1
+P273,Jonathan Yang,40,Female,Unknown,No,4,22,4,2,Medium,Moderate,55,93,1,48124,High,84,Silent Patient Deterioration,03/03/26,2026,3,3,0,8,36,22,0
+P274,Mr. Devin Warren DVM,73,Female,Heart Disease,No,4,3,10,0,High,Stable,37,76,1,23080,Medium,56,Recovery Degradation Pattern,02/02/26,2026,2,2,0,14.6,69,26.667,0
+P275,Ian Adams,72,Male,Unknown,No,3,10,9,4,Medium,Moderate,6,80,0,40360,High,78,Silent Patient Deterioration,25/02/26,2026,2,25,0,18,69,28.333,0
+P276,Seth Wiggins,79,Male,Asthma,Yes,7,12,2,2,High,Moderate,14,77,0,6851,Low,88,Silent Patient Deterioration,09/04/26,2026,4,9,0,9.875,72,32.667,0
+P277,Kylie Edwards,27,Female,Asthma,No,5,17,9,3,Medium,Critical,50,88,1,30098,Low,98,Silent Patient Deterioration,20/04/26,2026,4,20,0,4.5,22,16.333,1
+P278,Shelly Dominguez,61,Female,Hypertension,No,0,17,10,3,Low,Critical,34,83,2,12888,High,76,Silent Patient Deterioration,01/05/26,2026,5,1,0,61,61,26,1
+P279,Amber Mitchell,89,Female,Hypertension,No,5,25,3,1,Medium,Moderate,8,84,5,46894,Medium,88,Silent Patient Deterioration,21/04/26,2026,4,21,0,14.833,84,39.667,0
+P280,Ruben Gutierrez,32,Male,Diabetes,No,3,4,6,1,Medium,Critical,12,63,2,41609,Medium,45,Normal,05/03/26,2026,3,5,0,8,29,13,1
+P281,Lisa Anderson,70,Female,Diabetes,Yes,2,22,6,3,Low,Critical,7,64,2,8529,Low,99,Silent Patient Deterioration,19/03/26,2026,3,19,0,23.333,68,31.333,1
+P282,Michael King,83,Male,Asthma,No,8,19,8,2,Low,Critical,57,57,5,11517,High,110,Silent Patient Deterioration,31/12/25,2025,12,31,0,9.222,75,36.667,1
+P283,Kenneth Sexton,50,Female,Unknown,Yes,0,19,7,5,Low,Critical,32,46,0,11539,Medium,94,Silent Patient Deterioration,31/12/25,2025,12,31,0,50,50,23,1
+P284,Emily Robinson,46,Female,Heart Disease,Yes,0,1,6,5,Medium,Critical,45,61,0,21834,Medium,55,Normal,26/04/26,2026,4,26,0,46,46,15.667,1
+P285,Christine Mitchell,44,Female,Diabetes,Yes,2,8,4,5,Medium,Critical,32,94,4,29157,Medium,73,Silent Patient Deterioration,31/01/26,2026,1,31,0,14.667,42,18,1
+P286,Jerry Goodwin,29,Male,Diabetes,No,2,3,7,2,High,Moderate,40,46,3,43100,Low,45,Normal,24/01/26,2026,1,24,0,9.667,27,11.333,0
+P287,Abigail Sanford,52,Male,Hypertension,Yes,1,22,7,4,Medium,Stable,32,77,2,19004,Medium,101,Silent Patient Deterioration,21/03/26,2026,3,21,0,26,51,25,0
+P288,James Mcdaniel,35,Female,Diabetes,No,7,8,4,0,High,Critical,21,89,4,35813,Medium,63,Recovery Degradation Pattern,08/04/26,2026,4,8,0,4.375,28,16.667,1
+P289,Christopher Terrell,70,Male,Asthma,No,7,23,2,4,High,Critical,14,47,4,14824,Low,103,Silent Patient Deterioration,03/12/25,2025,12,3,0,8.75,63,33.333,1
+P290,Tanya Mckinney,55,Male,Heart Disease,No,0,17,8,0,High,Moderate,5,87,0,30498,Low,58,Normal,23/01/26,2026,1,23,0,55,55,24,0
+P291,Megan Dillon,38,Female,Unknown,Yes,5,18,6,5,Low,Moderate,9,44,5,47063,Low,114,Silent Patient Deterioration,22/01/26,2026,1,22,0,6.333,33,20.333,0
+P292,Rita Cruz,52,Male,Heart Disease,No,6,25,6,1,High,Critical,20,69,1,42804,High,102,Silent Patient Deterioration,30/04/26,2026,4,30,0,7.429,46,27.667,1
+P293,Micheal Watson,60,Female,Heart Disease,No,1,16,10,5,Low,Stable,32,58,1,9684,Low,87,Silent Patient Deterioration,21/12/25,2025,12,21,0,30,59,25.667,0
+P294,Ray Richmond,30,Male,Heart Disease,Yes,4,13,2,2,Medium,Moderate,40,69,0,7303,Medium,75,Silent Patient Deterioration,28/02/26,2026,2,28,0,6,26,15.667,0
+P295,Crystal Miranda,62,Male,Heart Disease,Yes,0,20,4,4,Medium,Moderate,45,66,2,6146,Medium,83,Silent Patient Deterioration,07/01/26,2026,1,7,0,62,62,27.333,0
+P296,Carl Green,51,Male,Unknown,Yes,6,14,3,1,Medium,Stable,30,43,4,37970,Medium,86,Silent Patient Deterioration,01/05/26,2026,5,1,0,7.286,45,23.667,0
+P297,Rebecca Byrd,89,Female,Unknown,Yes,5,25,8,4,Low,Moderate,59,57,2,29866,High,130,Silent Patient Deterioration,14/04/26,2026,4,14,0,14.833,84,39.667,0
+P298,Christopher Johnson,31,Female,Unknown,No,3,18,8,3,Medium,Critical,45,79,5,25424,Medium,87,Silent Patient Deterioration,06/04/26,2026,4,6,0,7.75,28,17.333,1
+P299,Cynthia Bryant,82,Male,Hypertension,No,2,24,4,0,Medium,Moderate,48,62,5,18029,High,70,Normal,14/03/26,2026,3,14,0,27.333,80,36,0
+P300,Sarah Guerrero,31,Male,Heart Disease,No,1,11,7,1,Medium,Stable,46,49,2,49892,High,52,Normal,12/02/26,2026,2,12,0,15.5,30,14.333,0

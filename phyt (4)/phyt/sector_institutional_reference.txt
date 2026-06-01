@@ -1,0 +1,60 @@
+========================================================================
+INFRA SENSE AI - INSTITUTIONAL SECTOR OPERATIONAL REFERENCE MANUAL
+========================================================================
+Tagline: "Efficiency. Sustainability. Comfort."
+Scope: Smart University Campus HVAC Zoning & Server Cooling Logs
+
+This document serves as the primary technical reference for the Institutional Sector 
+monitoring system integrated within the InfraSense AI platform.
+
+------------------------------------------------------------------------
+1. GENERAL INFRASTRUCTURE & VITAL METRICS
+------------------------------------------------------------------------
+The system monitors academic servers, HVAC zoning, and campus carbon footprints 
+across 8 primary telemetry metrics:
+  * Telemetry Health: Operational status of hardware sensors (%).
+  * Chill Water Cooling Flow: Water velocity index inside coolant lines (kJ).
+  * Server Room Temperature: Indoor climate temperature averages (°C).
+  * Airflow Velocity: Active ventilation intake pressure indexes (m/s).
+  * Main Substation Voltage: Campus power station delivery inputs (V).
+  * HVAC Efficiency: Running thermal performance ratios.
+  * Active Systems Count: Active campus HVAC zones currently monitored.
+  * AI Core Risk Score: Probability of HVAC zone system cooling failure (%).
+
+------------------------------------------------------------------------
+2. HARDWARE DEVICES MONITORED
+------------------------------------------------------------------------
+  * HVAC Climate Intake Fan:
+     * Model: Carrier 39M Series Main Intake.
+     * Voltage Range: 208V - 230V (Fluctuates dynamically around 228.4V).
+     * Optimal Threshold: Warns if voltage deviates below 208V or exceeds 230V.
+
+------------------------------------------------------------------------
+3. MACHINE LEARNING MODELLING PIPELINE (university.py)
+------------------------------------------------------------------------
+  * Dataset Ingest: "university.csv"
+  * Primary Predictors: server_load_kw, chilled_water_kj, outdoor_temp_c, humidity_pct, hvac_runtime_hr.
+  * Client-Side Model Replica:
+    Computes real-time failure probabilities and zone risks based on thermal index drift.
+
+------------------------------------------------------------------------
+4. MANUAL SIMULATION OVERRIDES (CRASH TESTS)
+------------------------------------------------------------------------
+To validate critical alert HUD logic, three manual overrides are available in the UI:
+  A. Emergency Monitor Test (CRIMSON EMERGENCY MODE):
+     * Simulates server room chilled water cooling flow collapsing to zero.
+     * Alarms turn red; prompts operator to initiate immediate workloads migration to cloud.
+  B. Degradation Tracker Test (AMBER WARNING MODE):
+     * Simulates long hvac runtimes and compressor efficiency decay.
+     * Alarms turn amber; prompts operator to log a preventive compressor maintenance ticket.
+  C. Environment Optimizer Test (TEAL OPTIMIZATION MODE):
+     * Simulates high outdoor heat index and humidity instability.
+     * Alarms turn teal; prompts operator to execute smart cooling balance scripts.
+
+------------------------------------------------------------------------
+5. FILE REFERENCES
+------------------------------------------------------------------------
+* UI Component Render: src/pages/UserDashboard.jsx -> isInstitutional code blocks
+* Data Source Pipeline: public/university.csv
+* Training Pipeline: university.py
+========================================================================

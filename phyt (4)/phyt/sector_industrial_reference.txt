@@ -1,0 +1,58 @@
+========================================================================
+INFRA SENSE AI - INDUSTRIAL SECTOR OPERATIONAL REFERENCE MANUAL
+========================================================================
+Tagline: "Precision. Safety. Continuity."
+Scope: Heavy Duty Manufacturing & Rotational Telemetry Systems
+
+This document serves as the primary technical reference for the Industrial Sector 
+monitoring system integrated within the InfraSense AI platform.
+
+------------------------------------------------------------------------
+1. GENERAL INFRASTRUCTURE & VITAL METRICS
+------------------------------------------------------------------------
+The system monitors heavy-duty assembly automation machinery, conveyor motors, and 
+pneumatic air pressure logs across 8 primary telemetry metrics:
+  * Telemetry Health: Operational status of hardware sensors (%).
+  * Rotation Vibration: Rotational motor shaft vibration (mm/s).
+  * Compressed Air Flow: Air velocity index within pneumatic lines (m/s).
+  * Hydraulic Temperature: Running core motor temperatures (°C).
+  * Operational Voltage: Electrical voltage input to main systems (V).
+  * Active Systems Count: Monitored assembly lines currently online.
+  * Detected Anomalies: Active alert flags in the industrial sector.
+  * AI Core Risk Score: Probability of preventative mechanical fatigue failure (%).
+
+------------------------------------------------------------------------
+2. HARDWARE DEVICES MONITORED
+------------------------------------------------------------------------
+  A. Heavy Duty Conveyor Motor:
+     * Model: Siemens 1LA9 Three-Phase Core.
+     * Voltage Range: 380V - 415V (Fluctuates dynamically around 412.5V).
+     * Optimal Threshold: Warns if voltage deviates below 380V or exceeds 415V.
+
+  B. Air Compressor Motor:
+     * Model: Atlas Copco GA37 Pneumatic.
+     * Voltage Range: 400V - 480V (Fluctuates dynamically around 415.8V).
+     * Optimal Threshold: Warns if voltage approaches upper or lower limits.
+
+------------------------------------------------------------------------
+3. CHART VISUALIZATIONS & INSTRUMENTATION
+------------------------------------------------------------------------
+* Sensory Telemetry Log: LineChart comparing temperature and line voltage fluctuations.
+* Operational Fatigue: PieChart tracking rotational acoustic noise profiles.
+* Airflow Velocity Logs: Shaded AreaChart monitoring pneumatic lines pressure draws.
+* Anomaly Flag Ingestion: BarChart tracking historical mechanical anomaly flag indices.
+
+------------------------------------------------------------------------
+4. AUTOMATED PREVENTATIVE ACTIONS (DISPATCH LOGIC)
+------------------------------------------------------------------------
+When anomalies are detected, the system provides three action dispatches:
+  * Perform Bearing Lubrication: Issued when rotational vibrations drift upwards.
+  * Initiate Pressure Seal Calibration: Issued when compressed airflow pressure leaks.
+  * Deploy Core Cooling Maintenance: Issued when motor operating temperatures overheat.
+
+------------------------------------------------------------------------
+5. FILE REFERENCES
+------------------------------------------------------------------------
+* UI Component Render: src/pages/UserDashboard.jsx -> getPredictions()
+* System Context Core: src/context/SystemContext.jsx -> INITIAL_DEVICES
+========================================================================
